@@ -1,5 +1,5 @@
 {
- "count": 20,
+ "count": 19,
  "feiseanna": [
   {
    "address": "902 Loveland-Miamiville Rd",
@@ -32,7 +32,9 @@
    "city": "Brighton",
    "country": "US",
    "end_date": "2026-11-08",
-   "extra": {},
+   "extra": {
+    "registration_status": "Registration is CLOSED"
+   },
    "host": "McTeggart Irish Dancers Colorado",
    "name": "Colorado State Championships & Fall Feis",
    "region": "Western US",
@@ -46,40 +48,16 @@
     {
      "source": "idtana",
      "url": "https://idtana.org/events/colorado-state-championships-fall-feis/"
+    },
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
     }
    ],
    "start_date": "2026-11-07",
    "state": "CO",
    "venue": "Adams County Fairgrounds @ Riverdale Regional Park",
    "website": "https://sites.google.com/view/coloradostatefeis/home"
-  },
-  {
-   "address": null,
-   "city": "Brighton",
-   "country": "US",
-   "end_date": "2026-11-08",
-   "extra": {
-    "registration_status": "Registration is CLOSED"
-   },
-   "host": "McTeggart, CO",
-   "name": "Colorado Fall Feis 2026",
-   "region": null,
-   "registration_links": {
-    "feisworx": "https://www.feisworx.com/feisinfo.php"
-   },
-   "source": "feisworx",
-   "source_id": "2422",
-   "source_url": "https://www.feisworx.com/feisinfo.php",
-   "sources": [
-    {
-     "source": "feisworx",
-     "url": "https://www.feisworx.com/feisinfo.php"
-    }
-   ],
-   "start_date": "2026-11-08",
-   "state": "CO",
-   "venue": null,
-   "website": "https://sites.google.com/view/coloradostatefeis"
   },
   {
    "address": "3303 Pinnacle Hills",
@@ -104,7 +82,7 @@
    ],
    "start_date": "2026-11-08",
    "state": "AR",
-   "venue": "Rogers, Arkansas",
+   "venue": null,
    "website": "https://rincearkansas.com/om-feis/"
   },
   {
