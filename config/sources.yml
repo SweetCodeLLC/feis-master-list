@@ -1,0 +1,47 @@
+# One entry per source. Lower priority number wins when merged records disagree.
+min_delay_seconds: 1.5          # per-host gap between requests
+min_fraction_of_previous: 0.5   # a run returning < 50% of the last snapshot is treated as a failure
+
+sources:
+  idtana:
+    adapter: idtana
+    enabled: true
+    priority: 10
+    # Open REST API + sitemap, robots allow. Covers North America; registration links
+    # on each page identify the platform (QuickFeis, FeisWeb, iFeis, FeisWorx, ...).
+
+  feisworx:
+    adapter: feisworx
+    enabled: true
+    priority: 20
+    url: https://www.feisworx.com/feisinfo.php
+    # No robots.txt / terms page found. Registrant lists and registrar e-mails are never read.
+
+  western_canada_rss:
+    adapter: rss
+    enabled: false              # set url (e.g. https://<site>/feis-dates?format=rss) then enable
+    priority: 30
+    url: ""
+    region: Western Canada
+    country: CA
+    # Feed has titles/links but no dates; items without a date go to data/undated.json.
+    # Do not use the site's iCal/JSON exports: robots.txt disallows them.
+
+  quickfeis:
+    adapter: quickfeis
+    enabled: false              # scaffold: run the probe workflow, then write the parser
+    priority: 40
+
+  ifeis:
+    adapter: ifeis              # ifeis.net; list is JavaScript-rendered
+    enabled: false
+    priority: 40
+
+  feisweb:
+    adapter: feisweb
+    enabled: false
+    priority: 40
+    written_consent: false      # terms forbid reproducing/redistributing without written consent
+
+  # Planxti is intentionally NOT a source: its terms limit use to individual use and forbid
+  # republishing or derivative works. Link out to its pages instead; ask them for a feed.

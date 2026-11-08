@@ -1,0 +1,55 @@
+name: Update feis master list
+
+on:
+  schedule:
+    - cron: "17 9 * * *"      # daily, 09:17 UTC (off the hour on purpose)
+  workflow_dispatch:
+
+permissions:
+  contents: write              # needed to commit data/ back; nothing else
+
+concurrency:
+  group: feis-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      # Tip: pin these to full commit SHAs (Dependabot can keep them current).
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Restore HTTP cache (ETags) so unchanged pages return 304
+        uses: actions/cache@v4
+        with:
+          path: .cache/http
+          key: feis-http-${{ github.run_id }}
+          restore-keys: feis-http-
+
+      - name: Build master list
+        shell: bash
+        env:
+          # Repo variable: a URL or e-mail where site owners can reach you.
+          FEIS_CONTACT: ${{ vars.FEIS_CONTACT }}
+        run: python -m feis_master.run | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/feiseanna.json data/feiseanna.csv data/undated.json data/sources
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update feis master list"
+            git push
+          fi

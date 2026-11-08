@@ -1,0 +1,35 @@
+name: Probe platform pages
+
+# Saves the raw listing pages of platforms that couldn't be inspected while building
+# the project, plus any API-looking URLs found in them, as a downloadable artifact.
+# Use it to finish the QuickFeis / iFeis adapters. (FeisWeb is deliberately not here:
+# get written consent first.)
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Space-separated URLs to fetch (one request each)"
+        default: "https://www.quickfeis.com/ https://www.ifeis.net/"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fetch pages
+        env:
+          FEIS_CONTACT: ${{ vars.FEIS_CONTACT }}
+        run: python tools/probe.py ${{ inputs.urls }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: probe-output
+          path: probe_out/
