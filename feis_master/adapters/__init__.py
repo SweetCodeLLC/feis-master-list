@@ -1,6 +1,7 @@
 from .feisworx import FeisworxAdapter
 from .idtana import IdtanaAdapter
-from .platforms import FeisWebAdapter, IFeisAdapter, QuickFeisAdapter
+from .platforms import FeisWebAdapter, IFeisAdapter
+from .quickfeis import QuickFeisAdapter
 from .rss import RssAdapter
 
 REGISTRY = {

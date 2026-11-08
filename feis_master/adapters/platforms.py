@@ -1,7 +1,6 @@
 """Scaffolds for registration platforms whose markup could not be inspected yet.
 
-QuickFeis, iFeis and FeisWeb pages were not reachable while this project was
-built, so no parser is written blind. Run the 'probe' workflow (it saves the raw
+iFeis and FeisWeb: no parser is written blind. (QuickFeis has its own adapter.) Run the 'probe' workflow (it saves the raw
 listing pages as an artifact), then implement `fetch` against the real HTML.
 
 Until then, links to these platforms still appear in the master list: IDTANA
@@ -12,11 +11,6 @@ from __future__ import annotations
 from ..http import Client
 from ..schema import Feis
 from .base import Adapter, NotConfigured
-
-
-class QuickFeisAdapter(Adapter):
-    def fetch(self, client: Client, previous: dict[str, dict]) -> list[Feis]:
-        raise NotConfigured("quickfeis: parser not written yet - run the probe workflow first")
 
 
 class IFeisAdapter(Adapter):

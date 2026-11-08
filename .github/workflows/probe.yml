@@ -1,16 +1,17 @@
 name: Probe platform pages
 
-# Saves the raw listing pages of platforms that couldn't be inspected while building
-# the project, plus any API-looking URLs found in them, as a downloadable artifact.
-# Use it to finish the QuickFeis / iFeis adapters. (FeisWeb is deliberately not here:
-# get written consent first.)
+# Fetches each URL once (robots.txt honored), prints a readable view, sample event rows,
+# page structure, API-looking strings and terms/privacy links into the run log, and also
+# saves the raw files as an artifact. Defaults cover QuickFeis, iFeis (page + JS bundle) and
+# the seven IDTANA regional listings, so you can just tap Run workflow.
+# (FeisWeb is deliberately not here: get written consent first.)
 
 on:
   workflow_dispatch:
     inputs:
       urls:
         description: "Space-separated URLs to fetch (one request each)"
-        default: "https://www.quickfeis.com/ https://www.ifeis.net/"
+        default: "https://www.quickfeis.com/ https://www.ifeis.net/ https://www.ifeis.net/ifeis.min.e9c80b2676d9720d6e81.js https://www.idtac-er.com/regional-feiseanna https://www.mid-atlanticregion.com/feis-info https://midamericaregion.com/region-information/feis-calendar/ https://www.neidt.org/feiseanna https://www.idtana-southernregion.com/calendar https://www.wcidta.ca/feis-dates https://www.westernusregion.com/feiseanna"
 
 permissions:
   contents: read

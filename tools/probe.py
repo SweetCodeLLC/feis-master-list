@@ -106,6 +106,19 @@ def sample_rows(html: str, n: int = 4, cap: int = 2500) -> str:
     return "\n\n".join(out_rows) or "(no table rows with dates found)"
 
 
+def legal_links(html: str) -> str:
+    """Links that look like terms / privacy / policy pages (absolute where possible)."""
+    soup = BeautifulSoup(html, "html.parser")
+    found = []
+    for a in soup.find_all("a"):
+        txt = a.get_text(" ", strip=True)
+        href = a.get("href") or ""
+        blob = f"{txt} {href}"
+        if re.search(r"terms|privacy|policy|conditions|legal|disclaimer|robots", blob, re.I):
+            found.append(f"{txt[:60]!r} -> {href[:200]}")
+    return "\n".join(dict.fromkeys(found)) or "(none found)"
+
+
 def js_endpoints(js: str, limit: int = 120) -> str:
     """API-looking strings in a JavaScript bundle (for single-page apps)."""
     found = []
@@ -127,6 +140,7 @@ def emit(url: str, status: int, html: str, hints: list[str]) -> None:
         out(f"===== END {url} =====")
         return
     block("URL hints", "\n".join(hints) or "(none)")
+    block("legal-looking links", legal_links(html))
     if len(html) <= FULL_LIMIT:
         block("full HTML", strip_hidden(html))
     else:

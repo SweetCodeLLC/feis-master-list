@@ -29,8 +29,8 @@ sources:
 
   quickfeis:
     adapter: quickfeis
-    enabled: false              # scaffold: run the probe workflow, then write the parser
-    priority: 40
+    enabled: true               # home page only; Terms of Use page was blank when reviewed
+    priority: 40                # (2026-11-08). Re-check periodically. robots.txt is still honored.
 
   ifeis:
     adapter: ifeis              # ifeis.net; list is JavaScript-rendered
