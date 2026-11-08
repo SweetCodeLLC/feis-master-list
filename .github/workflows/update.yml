@@ -51,5 +51,7 @@ jobs:
             echo "No changes."
           else
             git commit -m "Update feis master list"
+            # main may have moved while this run was going (a code push, another run)
+            git pull --rebase origin main
             git push
           fi
