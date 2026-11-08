@@ -1,19 +1,21 @@
 """Merge per-source records into one master list.
 
-Two records are the same feis when they start on the same date, their states
+Two records are the same feis when their date ranges overlap, their states
 agree (or one is missing), and their normalized names match closely. Registration
 links from every source are kept (platform -> url) instead of picking one.
 """
 from __future__ import annotations
 
-from collections import defaultdict
 from difflib import SequenceMatcher
 
 from .schema import Feis, name_tokens
 
 
 def _same(a: Feis, b: Feis) -> bool:
-    if not a.start_date or a.start_date != b.start_date:
+    if not a.start_date or not b.start_date:
+        return False
+    a_end, b_end = a.end_date or a.start_date, b.end_date or b.start_date
+    if not (a.start_date <= b_end and b.start_date <= a_end):   # date ranges must overlap
         return False
     if a.state and b.state and a.state != b.state:
         return False
@@ -42,17 +44,15 @@ def _absorb(base: Feis, other: Feis) -> None:
 def merge(records: list[tuple[int, Feis]]) -> list[Feis]:
     """records: (priority, Feis); lower priority number wins field conflicts."""
     ordered = sorted(records, key=lambda t: (t[0], t[1].name))
-    by_date: dict[str, list[Feis]] = defaultdict(list)
     out: list[Feis] = []
     for _prio, rec in ordered:
         rec.sources = [{"source": rec.source, "url": rec.source_url}]
         if not rec.start_date:
             continue
-        hit = next((m for m in by_date[rec.start_date] if _same(m, rec)), None)
+        hit = next((m for m in out if _same(m, rec)), None)
         if hit:
             _absorb(hit, rec)
         else:
-            by_date[rec.start_date].append(rec)
             out.append(rec)
     out.sort(key=lambda f: (f.start_date or "", f.name.lower()))
     return out

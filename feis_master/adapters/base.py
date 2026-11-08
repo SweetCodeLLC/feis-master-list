@@ -15,6 +15,7 @@ class Adapter:
         self.name = name
         self.priority = priority
         self.cfg = cfg
+        self.warnings: list[str] = []
 
     def fetch(self, client: Client, previous: dict[str, dict]) -> list[Feis]:
         """Return records. `previous` maps source_id -> last saved record dict so

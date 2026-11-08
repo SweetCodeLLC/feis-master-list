@@ -85,4 +85,8 @@ class FeisworxAdapter(Adapter):
         rows = parse_table(page.text, url)
         if not rows:
             raise RuntimeError("feisworx: parsed 0 rows (page layout changed?)")
+        on_page = set(FEIS_ID_RE.findall(page.text))
+        missing = sorted(on_page - {r.source_id for r in rows if r.source_id})
+        if missing:
+            self.warnings.append(f"{len(missing)} feis id(s) on the page were not parsed: {', '.join(missing[:20])}")
         return rows

@@ -74,7 +74,7 @@ def main(argv=None) -> int:
             status[name] = f"FAILED: only {len(recs)} records vs {len(prev)} before - kept previous snapshot"
             continue
         snap_path.write_text(json.dumps([r.to_dict() for r in recs], indent=1, sort_keys=True) + "\n")
-        status[name] = f"ok: {len(recs)} records"
+        status[name] = f"ok: {len(recs)} records" + "".join(f" [warning: {w}]" for w in adapter.warnings)
 
     # rebuild master from every snapshot on disk
     allrecs: list[tuple[int, Feis]] = []

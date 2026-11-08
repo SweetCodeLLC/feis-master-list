@@ -2,10 +2,12 @@
 (text-level descriptions), not saved copies of the live HTML. Once real pages are
 captured (probe workflow / a local save), add them to tests/fixtures and extend these."""
 import datetime as dt
+import json
 
 from feis_master.adapters.feisworx import parse_table
 from feis_master.adapters.idtana import parse_detail
 from feis_master.adapters.rss import parse_feed
+from feis_master.http import Page
 from feis_master.merge import merge
 from feis_master.schema import Feis, fix_url, norm_state, parse_span, platform_of
 
@@ -120,3 +122,66 @@ def test_helpers():
     assert fix_url("mailto:a@b.com") is None
     assert platform_of("https://www.quickfeis.com/x") == "quickfeis"
     assert platform_of("https://www.ifeis.net/") == "ifeis"
+
+
+# ---------------------------------------------------------------- regressions from the first live run
+def test_idtana_venue_that_repeats_city_state_is_dropped():
+    html = ("<h2>Feis Profile</h2><a>Back to Directory</a><h1>Diamond State Feis</h1>"
+            "<h3>Date</h3><p>November 8, 2026</p>"
+            "<h3>Location</h3><p>Rogers, Arkansas</p><p>Rogers</p><p>Arkansas</p>"
+            "<h3>REGISTRATION LINK</h3><p>https://www.ifeis.net</p>")
+    f = parse_detail(html, "https://idtana.org/events/d/")
+    assert f.venue is None and (f.city, f.state) == ("Rogers", "AR")
+
+
+def test_idtana_rest_pagination_with_lowercase_header():
+    from feis_master.adapters.idtana import IdtanaAdapter
+
+    class C:
+        calls = []
+        def get(self, url):
+            C.calls.append(url)
+            n = 100 if "&page=1&" in url else 5
+            rows = [{"id": i, "link": f"https://idtana.org/events/e{i}/", "title": {"rendered": "x"}} for i in range(n)]
+            return Page(url, 200, json.dumps(rows), {"x-wp-totalpages": "2"})   # lowercased, as on the runner
+    items = IdtanaAdapter("idtana", 10, {})._enumerate_rest(C())
+    assert len(items) == 105 and len(C.calls) == 2
+
+
+def test_idtana_rest_pagination_without_header_uses_short_page():
+    from feis_master.adapters.idtana import IdtanaAdapter
+
+    class C:
+        def get(self, url):
+            first = "&page=1&" in url
+            n = 100 if first else 7
+            rows = [{"id": i + (0 if first else 1000), "link": "u", "title": {"rendered": ""}} for i in range(n)]
+            return Page(url, 200, json.dumps(rows), {})
+    assert len(IdtanaAdapter("idtana", 10, {})._enumerate_rest(C())) == 107
+
+
+def test_merge_matches_overlapping_date_ranges():
+    a = Feis(name="Colorado State Championships & Fall Feis", start_date="2026-11-07",
+             end_date="2026-11-08", state="CO", source="idtana")
+    b = Feis(name="Colorado Fall Feis 2026", start_date="2026-11-08", end_date="2026-11-08",
+             state="CO", source="feisworx", extra={"registration_status": "Registration is Open"})
+    out = merge([(10, a), (20, b)])
+    assert len(out) == 1 and out[0].extra["registration_status"] == "Registration is Open"
+
+
+def test_merge_keeps_adjacent_day_events_separate():
+    a = Feis(name="North Coast Feis", start_date="2027-02-06", end_date="2027-02-06", state="OH", source="a")
+    b = Feis(name="North Coast Feis Grade Exams", start_date="2027-02-07", end_date="2027-02-07", state="OH", source="a")
+    assert len(merge([(1, a), (1, b)])) == 2
+
+
+def test_feisworx_reports_unparsed_ids():
+    from feis_master.adapters.feisworx import FeisworxAdapter
+    html = FEISWORX_HTML + '<a href="show_reg.php?feis=2499">orphan</a>'
+
+    class C:
+        def get(self, url):
+            return Page(url, 200, html)
+    ad = FeisworxAdapter("feisworx", 20, {})
+    ad.fetch(C(), {})
+    assert any("2499" in w for w in ad.warnings)

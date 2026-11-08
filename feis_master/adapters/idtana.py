@@ -61,6 +61,10 @@ def _split_location(lines: list[str]) -> dict:
             res["city"], res["state"] = m.group(1), m.group(2)
         else:
             res["venue"] = L[0]
+    if res["venue"] and res["city"] and res["state"]:
+        flat = lambda t: re.sub(r"\W+", " ", t).strip().lower()
+        if flat(res["venue"]) == flat(f"{res['city']} {res['state']}"):
+            res["venue"] = None          # the "venue" line was just the city/state again
     return res
 
 
@@ -147,8 +151,12 @@ class IdtanaAdapter(Adapter):
             for d in data:
                 items.append({"id": str(d["id"]), "link": d["link"],
                               "title": re.sub(r"<[^>]+>", "", d.get("title", {}).get("rendered", ""))})
-            total = int(r.headers.get("X-WP-TotalPages", page))
-            if page >= total:
+            hdrs = {k.lower(): v for k, v in r.headers.items()}   # runners may lowercase names
+            try:
+                total = int(hdrs.get("x-wp-totalpages") or 0)
+            except ValueError:
+                total = 0
+            if (total and page >= total) or (not total and len(data) < 100) or page >= 30:
                 break
             page += 1
         return items
