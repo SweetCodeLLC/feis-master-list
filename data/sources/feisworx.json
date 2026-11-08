@@ -1,0 +1,232 @@
+[
+ {
+  "address": null,
+  "city": "Brighton",
+  "country": "US",
+  "end_date": "2026-11-07",
+  "extra": {
+   "registration_status": "Registration is CLOSED"
+  },
+  "host": "McTeggart, CO",
+  "name": "CO State Championships 2026",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2421",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2026-11-07",
+  "state": "CO",
+  "venue": null,
+  "website": "https://sites.google.com/view/coloradostatefeis"
+ },
+ {
+  "address": null,
+  "city": "Los Angeles",
+  "country": "US",
+  "end_date": "2026-11-07",
+  "extra": {
+   "registration_status": "Registration is CLOSED"
+  },
+  "host": "DeBarra Academy",
+  "name": "DeBarra Championships 2026",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2420",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2026-11-07",
+  "state": "CA",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "Brighton",
+  "country": "US",
+  "end_date": "2026-11-08",
+  "extra": {
+   "registration_status": "Registration is CLOSED"
+  },
+  "host": "McTeggart, CO",
+  "name": "Colorado Fall Feis 2026",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2422",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2026-11-08",
+  "state": "CO",
+  "venue": null,
+  "website": "https://sites.google.com/view/coloradostatefeis"
+ },
+ {
+  "address": null,
+  "city": "Los Angeles",
+  "country": "US",
+  "end_date": "2026-11-08",
+  "extra": {
+   "registration_status": "Registration is CLOSED"
+  },
+  "host": "DeBarra Academy",
+  "name": "South Bay Feis 2026",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2423",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2026-11-08",
+  "state": "CA",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "Anaheim",
+  "country": "US",
+  "end_date": "2026-11-22",
+  "extra": {
+   "registration_status": "Registration is CLOSED"
+  },
+  "host": "IDTANA Western Region",
+  "name": "Western US Region Oireachtas 2026",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2410",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2026-11-20",
+  "state": "CA",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "Anaheim",
+  "country": "US",
+  "end_date": "2026-11-22",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "IDTANA Western Region",
+  "name": "WUSR Oireachtas Mini-Feis 2026",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2424",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2026-11-22",
+  "state": "CA",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "Rancho Mirage",
+  "country": "US",
+  "end_date": "2026-12-05",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "Claddagh School of Irish Dancing",
+  "name": "Feile na Nollaig 2026",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2425",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2026-12-05",
+  "state": "CA",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "Rancho Mirage",
+  "country": "US",
+  "end_date": "2026-12-06",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "Claddagh School of Irish Dancing",
+  "name": "The Christmas Feis 2026",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2426",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2026-12-06",
+  "state": "CA",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "St. Petersburg",
+  "country": "US",
+  "end_date": "2027-01-23",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "Scariff Locklier Leonelli School of Irish Dancing",
+  "name": "Feis On The Gulf 2027",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2428",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-01-23",
+  "state": "FL",
+  "venue": null,
+  "website": "http://www.scariffschool.com"
+ },
+ {
+  "address": null,
+  "city": "St. Petersburg",
+  "country": "US",
+  "end_date": "2027-01-24",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "Scariff School of Irish Dance",
+  "name": "Florida State Championships 2027",
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2429",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-01-24",
+  "state": "FL",
+  "venue": null,
+  "website": "http://www.scariffschool.com"
+ }
+]

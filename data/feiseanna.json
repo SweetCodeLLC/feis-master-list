@@ -1,0 +1,541 @@
+{
+ "count": 20,
+ "feiseanna": [
+  {
+   "address": "902 Loveland-Miamiville Rd",
+   "city": "Loveland",
+   "country": "US",
+   "end_date": "2026-11-08",
+   "extra": {},
+   "host": "Cincinnati Irish Cultural Society",
+   "name": "Cincinnati Feis",
+   "region": "Mid America",
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "idtana",
+   "source_id": "10961",
+   "source_url": "https://idtana.org/events/cincinnati-feis-2/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/cincinnati-feis-2/"
+    }
+   ],
+   "start_date": "2026-11-07",
+   "state": "OH",
+   "venue": "The Oasis Conference Center",
+   "website": "https://www.mcgingdancers.com/cincinnati-feis/"
+  },
+  {
+   "address": "9755 Henderson Rd",
+   "city": "Brighton",
+   "country": "US",
+   "end_date": "2026-11-08",
+   "extra": {},
+   "host": "McTeggart Irish Dancers Colorado",
+   "name": "Colorado State Championships & Fall Feis",
+   "region": "Western US",
+   "registration_links": {
+    "feisworx": "https://feisworx.com/"
+   },
+   "source": "idtana",
+   "source_id": "9699",
+   "source_url": "https://idtana.org/events/colorado-state-championships-fall-feis/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/colorado-state-championships-fall-feis/"
+    }
+   ],
+   "start_date": "2026-11-07",
+   "state": "CO",
+   "venue": "Adams County Fairgrounds @ Riverdale Regional Park",
+   "website": "https://sites.google.com/view/coloradostatefeis/home"
+  },
+  {
+   "address": null,
+   "city": "Brighton",
+   "country": "US",
+   "end_date": "2026-11-08",
+   "extra": {
+    "registration_status": "Registration is CLOSED"
+   },
+   "host": "McTeggart, CO",
+   "name": "Colorado Fall Feis 2026",
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2422",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2026-11-08",
+   "state": "CO",
+   "venue": null,
+   "website": "https://sites.google.com/view/coloradostatefeis"
+  },
+  {
+   "address": "3303 Pinnacle Hills",
+   "city": "Rogers",
+   "country": "US",
+   "end_date": "2026-11-08",
+   "extra": {},
+   "host": "Ozark Mountain Irish Arts + Rince Arkansas Academy of Irish Dance",
+   "name": "Diamond State Feis",
+   "region": "Southern",
+   "registration_links": {
+    "ifeis": "http://ifeis.net"
+   },
+   "source": "idtana",
+   "source_id": "11134",
+   "source_url": "https://idtana.org/events/diamond-state-feis-4/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/diamond-state-feis-4/"
+    }
+   ],
+   "start_date": "2026-11-08",
+   "state": "AR",
+   "venue": "Rogers, Arkansas",
+   "website": "https://rincearkansas.com/om-feis/"
+  },
+  {
+   "address": null,
+   "city": "Los Angeles",
+   "country": "US",
+   "end_date": "2026-11-08",
+   "extra": {
+    "registration_status": "Registration is CLOSED"
+   },
+   "host": "DeBarra Academy",
+   "name": "South Bay Feis 2026",
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2423",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2026-11-08",
+   "state": "CA",
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": "2131 Lindau Ln",
+   "city": "Bloomington",
+   "country": "US",
+   "end_date": "2026-11-14",
+   "extra": {},
+   "host": "The Irish Dance Parent Association and O\u2019Shea Irish Dance",
+   "name": "Minnesota State Championship",
+   "region": "Mid America",
+   "registration_links": {
+    "feisfwd": "https://www.feisfwd.com/"
+   },
+   "source": "idtana",
+   "source_id": "13245",
+   "source_url": "https://idtana.org/events/minnesota-state-championship-2/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/minnesota-state-championship-2/"
+    }
+   ],
+   "start_date": "2026-11-14",
+   "state": "MN",
+   "venue": "Mall of America",
+   "website": "https://www.idpamn.org/events-1/2026-minnesota-state-championship"
+  },
+  {
+   "address": "2131 Lindau Ln",
+   "city": "Bloomington",
+   "country": "US",
+   "end_date": "2026-11-15",
+   "extra": {},
+   "host": "The Irish Dance Parent Association and O\u2019Shea Irish Dance",
+   "name": "St. Paul Autumn Feis",
+   "region": "Mid America",
+   "registration_links": {
+    "feisfwd": "https://www.feisfwd.com/"
+   },
+   "source": "idtana",
+   "source_id": "13247",
+   "source_url": "https://idtana.org/events/st-paul-autumn-feis-3/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/st-paul-autumn-feis-3/"
+    }
+   ],
+   "start_date": "2026-11-15",
+   "state": "MN",
+   "venue": "Mall of America",
+   "website": "http://www.idpamn.org/"
+  },
+  {
+   "address": null,
+   "city": "Anaheim",
+   "country": "US",
+   "end_date": "2026-11-22",
+   "extra": {
+    "registration_status": "Registration is CLOSED"
+   },
+   "host": "IDTANA Western Region",
+   "name": "Western US Region Oireachtas 2026",
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2410",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2026-11-20",
+   "state": "CA",
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": "Anaheim",
+   "country": "US",
+   "end_date": "2026-11-22",
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
+   "host": "IDTANA Western Region",
+   "name": "WUSR Oireachtas Mini-Feis 2026",
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2424",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2026-11-22",
+   "state": "CA",
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": "Rancho Mirage",
+   "country": "US",
+   "end_date": "2026-12-05",
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
+   "host": "Claddagh School of Irish Dancing",
+   "name": "Feile na Nollaig 2026",
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2425",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2026-12-05",
+   "state": "CA",
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": "Rancho Mirage",
+   "country": "US",
+   "end_date": "2026-12-06",
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
+   "host": "Claddagh School of Irish Dancing",
+   "name": "The Christmas Feis 2026",
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2426",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2026-12-06",
+   "state": "CA",
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": "8235 NE Airport Way",
+   "city": "Portland",
+   "country": "US",
+   "end_date": "2027-01-16",
+   "extra": {},
+   "host": "An Daire Academy of Irish Dance & Pacific Celtic Foundation",
+   "name": "Portland New Year\u2019s Feis",
+   "region": "Western US",
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/"
+   },
+   "source": "idtana",
+   "source_id": "13425",
+   "source_url": "https://idtana.org/events/portland-new-years-feis-3/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/portland-new-years-feis-3/"
+    }
+   ],
+   "start_date": "2027-01-16",
+   "state": "OR",
+   "venue": "Sherton Portland Airport Hotel",
+   "website": "https://sites.google.com/pacificcelticfoundation.org/feiseanna/home/portland-new-years-feis"
+  },
+  {
+   "address": "8235 NE Airport Way",
+   "city": "Portland",
+   "country": "US",
+   "end_date": "2027-01-17",
+   "extra": {},
+   "host": "An Daire Academy of Irish Dance & Pacific Celtic Foundation",
+   "name": "Northwest Winterfeis",
+   "region": "Western US",
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/"
+   },
+   "source": "idtana",
+   "source_id": "13427",
+   "source_url": "https://idtana.org/events/northwest-winterfeis-3/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/northwest-winterfeis-3/"
+    }
+   ],
+   "start_date": "2027-01-17",
+   "state": "OR",
+   "venue": "Sheraton Portland Airport Hotel",
+   "website": "https://sites.google.com/pacificcelticfoundation.org/feiseanna/home/northwest-winterfeis"
+  },
+  {
+   "address": "6185 Arapahoe Rd",
+   "city": "Boulder",
+   "country": "US",
+   "end_date": "2027-01-18",
+   "extra": {},
+   "host": "McTeggart",
+   "name": "Avalon Winterfeis",
+   "region": "Western US",
+   "registration_links": {
+    "feisworx": "https://feisworx.com/"
+   },
+   "source": "idtana",
+   "source_id": "10907",
+   "source_url": "https://idtana.org/events/avalon-winterfeis/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/avalon-winterfeis/"
+    }
+   ],
+   "start_date": "2027-01-18",
+   "state": "CO",
+   "venue": "The Avalon Ballroom",
+   "website": "https://sites.google.com/view/winterfeis26?usp=sharing"
+  },
+  {
+   "address": null,
+   "city": "St. Petersburg",
+   "country": "US",
+   "end_date": "2027-01-23",
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
+   "host": "Scariff Locklier Leonelli School of Irish Dancing",
+   "name": "Feis On The Gulf 2027",
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2428",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2027-01-23",
+   "state": "FL",
+   "venue": null,
+   "website": "http://www.scariffschool.com"
+  },
+  {
+   "address": null,
+   "city": "St. Petersburg",
+   "country": "US",
+   "end_date": "2027-01-24",
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
+   "host": "Scariff School of Irish Dance",
+   "name": "Florida State Championships 2027",
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2429",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2027-01-24",
+   "state": "FL",
+   "venue": null,
+   "website": "http://www.scariffschool.com"
+  },
+  {
+   "address": "24 Public Square",
+   "city": "Cleveland",
+   "country": "US",
+   "end_date": "2027-02-06",
+   "extra": {},
+   "host": "North Coast Feis",
+   "name": "North Coast Feis",
+   "region": "Mid America",
+   "registration_links": {
+    "feisworx": "http://www.feisworx.com"
+   },
+   "source": "idtana",
+   "source_id": "13231",
+   "source_url": "https://idtana.org/events/north-coast-feis-3/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/north-coast-feis-3/"
+    }
+   ],
+   "start_date": "2027-02-06",
+   "state": "OH",
+   "venue": "Hotel Cleveland",
+   "website": "http://www.leneghanacademy.com"
+  },
+  {
+   "address": "24 Public Square",
+   "city": "Cleveland",
+   "country": "US",
+   "end_date": "2027-02-07",
+   "extra": {},
+   "host": "Leneghan Academy for North Coast Feis",
+   "name": "North Coast Feis Grade Exams",
+   "region": "Mid America",
+   "registration_links": {
+    "other": "https://www.signupgenius.com/go/10C0C49A9AF2DA7FE3-66117523-north"
+   },
+   "source": "idtana",
+   "source_id": "13233",
+   "source_url": "https://idtana.org/events/north-coast-feis-grade-exams-2/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/north-coast-feis-grade-exams-2/"
+    }
+   ],
+   "start_date": "2027-02-07",
+   "state": "OH",
+   "venue": "Hotel Cleveland",
+   "website": "https://www.signupgenius.com/go/10C0C49A9AF2DA7FE3-66117523-north"
+  },
+  {
+   "address": "4900 Balloon Fiesta Pkwy NE",
+   "city": "Albuquerque",
+   "country": "US",
+   "end_date": "2027-02-14",
+   "extra": {},
+   "host": "McTeggart Irish Dancers New Mexico",
+   "name": "New Mexico State Championships & Feis on the Rio Grande",
+   "region": "Western US",
+   "registration_links": {
+    "feisworx": "https://feisworx.com/"
+   },
+   "source": "idtana",
+   "source_id": "9647",
+   "source_url": "https://idtana.org/events/new-mexico-state-championships-feis-on-the-rio-grande/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/new-mexico-state-championships-feis-on-the-rio-grande/"
+    }
+   ],
+   "start_date": "2027-02-13",
+   "state": "NM",
+   "venue": "Sid Cutter Pilot\u2019s Pavilion at Balloon Fiesta Park",
+   "website": "https://irishdancenewmexico.com/"
+  },
+  {
+   "address": "605 W Fireweed Ln.",
+   "city": "Anchorage",
+   "country": "US",
+   "end_date": "2027-04-17",
+   "extra": {},
+   "host": "Pacific Celtic Foundation",
+   "name": "Alaska State Feis",
+   "region": "Western US",
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/"
+   },
+   "source": "idtana",
+   "source_id": "13429",
+   "source_url": "https://idtana.org/events/alaska-state-feis/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/alaska-state-feis/"
+    }
+   ],
+   "start_date": "2027-04-17",
+   "state": "AK",
+   "venue": "North Star Elementary School",
+   "website": "https://sites.google.com/pacificcelticfoundation.org/feiseanna/home/alaska-state-feis"
+  }
+ ]
+}
