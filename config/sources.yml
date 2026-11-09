@@ -62,3 +62,11 @@ sources:
 
   # Planxti is intentionally NOT a source: its terms limit use to individual use and forbid
   # republishing or derivative works. Link out to its pages instead; ask them for a feed.
+
+# Per-feis platform ids (a platform's own number for a feis), so an app can open results.
+# FeisWorx ids come straight from its listing. QuickFeis ids come from the dropdown on its public
+# Results page, matched to events by year + name (flagged extra.id_match = name+year). Event facts only.
+platform_catalogs:
+  quickfeis:
+    enabled: true
+    url: https://www.quickfeis.com/FeisResults

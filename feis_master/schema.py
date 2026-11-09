@@ -159,6 +159,7 @@ class Feis:
     host: Optional[str] = None
     website: Optional[str] = None
     registration_links: dict = field(default_factory=dict)   # platform -> url
+    platform_ids: dict = field(default_factory=dict)         # platform -> that platform's own feis id
     extra: dict = field(default_factory=dict)
     source: str = ""
     source_id: Optional[str] = None

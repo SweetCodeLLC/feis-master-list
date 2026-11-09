@@ -10,6 +10,9 @@ from difflib import SequenceMatcher
 
 from .schema import Feis, name_tokens
 
+# Sources whose source_id is the platform's own feis id (FeisWorx: syllabus.php?feis=<id>).
+ID_SOURCES = {"feisworx"}
+
 
 def _same(a: Feis, b: Feis) -> bool:
     if not a.start_date or not b.start_date:
@@ -34,6 +37,8 @@ def _absorb(base: Feis, other: Feis) -> None:
             setattr(base, fld, getattr(other, fld))
     for plat, url in other.registration_links.items():
         base.registration_links.setdefault(plat, url)
+    for plat, pid in other.platform_ids.items():
+        base.platform_ids.setdefault(plat, pid)
     for k, v in other.extra.items():
         base.extra.setdefault(k, v)
     for s in other.sources:
@@ -47,6 +52,8 @@ def merge(records: list[tuple[int, Feis]]) -> list[Feis]:
     out: list[Feis] = []
     for _prio, rec in ordered:
         rec.sources = [{"source": rec.source, "url": rec.source_url}]
+        if rec.source in ID_SOURCES and rec.source_id:      # the source's own id for this feis
+            rec.platform_ids.setdefault(rec.source, str(rec.source_id))
         if not rec.start_date:
             continue
         hit = next((m for m in out if _same(m, rec)), None)

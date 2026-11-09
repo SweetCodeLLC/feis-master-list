@@ -18,11 +18,12 @@ import yaml
 from .adapters import REGISTRY
 from .adapters.base import NotConfigured
 from .http import Client
+from .ids import match_quickfeis, parse_quickfeis_catalog
 from .merge import merge
 from .schema import Feis
 
 CSV_FIELDS = ["name", "start_date", "end_date", "venue", "address", "city", "state",
-              "country", "region", "host", "website", "registration_links", "sources"]
+              "country", "region", "host", "website", "registration_links", "platform_ids", "sources"]
 
 
 def load_snapshot(path: Path) -> dict[str, dict]:
@@ -92,6 +93,26 @@ def main(argv=None) -> int:
     today = dt.date.today().isoformat()
     master = [f for f in merge(allrecs) if (f.end_date or f.start_date) >= today]
 
+    # per-feis platform ids (QuickFeis catalog); a failed fetch keeps the previous catalog file
+    cat_path = data / "platform_feises.json"
+    catalog = json.loads(cat_path.read_text()) if cat_path.exists() else {}
+    qcfg = cfg.get("platform_catalogs", {}).get("quickfeis", {})
+    if qcfg.get("enabled"):
+        try:
+            page = client.get(qcfg["url"])
+            fresh = parse_quickfeis_catalog(page.text) if page.status == 200 else []
+            if fresh and len(fresh) >= 0.5 * len(catalog.get("quickfeis", [])):
+                catalog["quickfeis"] = fresh
+                cat_path.write_text(json.dumps(catalog, indent=1, sort_keys=True) + "\n")
+                status["quickfeis_catalog"] = f"ok: {len(fresh)} feiseanna"
+            else:
+                status["quickfeis_catalog"] = "FAILED: empty or much smaller list - kept previous catalog"
+        except Exception as e:
+            status["quickfeis_catalog"] = f"FAILED ({type(e).__name__}): {e} - kept previous catalog"
+    matched = match_quickfeis(master, catalog.get("quickfeis", []))
+    if qcfg.get("enabled"):
+        status["quickfeis_catalog"] += f"; matched {matched} of {sum(1 for f in master if 'quickfeis' in f.registration_links)} QuickFeis events"
+
     out = {"count": len(master), "feiseanna": [f.to_dict() for f in master]}
     (data / "feiseanna.json").write_text(json.dumps(out, indent=1, sort_keys=True) + "\n")
     (data / "undated.json").write_text(json.dumps(undated, indent=1, sort_keys=True) + "\n")
@@ -100,6 +121,7 @@ def main(argv=None) -> int:
         w.writeheader()
         for f in master:
             d = f.to_dict()
+            d["platform_ids"] = "; ".join(f"{k}={v}" for k, v in sorted(f.platform_ids.items()))
             d["registration_links"] = "; ".join(f"{k}={v}" for k, v in sorted(f.registration_links.items()))
             d["sources"] = "; ".join(s["source"] for s in f.sources)
             w.writerow({k: d.get(k) for k in CSV_FIELDS})
