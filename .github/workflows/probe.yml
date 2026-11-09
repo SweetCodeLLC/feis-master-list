@@ -11,7 +11,7 @@ on:
     inputs:
       urls:
         description: "Space-separated URLs to fetch (one request each)"
-        default: "https://www.quickfeis.com/ https://www.ifeis.net/ https://www.ifeis.net/ifeis.min.e9c80b2676d9720d6e81.js https://www.idtac-er.com/regional-feiseanna https://www.mid-atlanticregion.com/feis-info https://midamericaregion.com/region-information/feis-calendar/ https://www.neidt.org/feiseanna https://www.idtana-southernregion.com/calendar https://www.wcidta.ca/feis-dates https://www.westernusregion.com/feiseanna"
+        default: "https://api.ifeis.net/api/feiseanna"
 
 permissions:
   contents: read

@@ -17,15 +17,32 @@ sources:
     url: https://www.feisworx.com/feisinfo.php
     # No robots.txt / terms page found. Registrant lists and registrar e-mails are never read.
 
-  western_canada_rss:
-    adapter: rss
-    enabled: false              # set url (e.g. https://<site>/feis-dates?format=rss) then enable
+  # IDTANA regional pages (plain-text calendars). Never use their iCal/ICS exports: robots disallow.
+  western_canada:
+    adapter: western_canada
+    enabled: true
     priority: 30
-    url: ""
-    region: Western Canada
-    country: CA
-    # Feed has titles/links but no dates; items without a date go to data/undated.json.
-    # Do not use the site's iCal/JSON exports: robots.txt disallows them.
+    url: https://www.wcidta.ca/feis-dates
+
+  new_england:
+    adapter: new_england
+    enabled: true
+    priority: 30
+    url: https://www.neidt.org/feiseanna
+
+  eastern_canada:
+    adapter: eastern_canada
+    enabled: true
+    priority: 30
+    url: https://www.idtac-er.com/regional-feiseanna
+
+  southern:
+    adapter: southern
+    enabled: true
+    priority: 30
+    url: https://www.idtana-southernregion.com/calendar
+
+  # Not built: Western US (irregular layout), Mid-Atlantic (image/widget), Mid America (links only).
 
   quickfeis:
     adapter: quickfeis

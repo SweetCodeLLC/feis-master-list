@@ -61,7 +61,7 @@ MONTHS["sept"] = 9
 _MON = r"[A-Za-z]{3,9}"
 DATE_RE = re.compile(rf"(?P<mon>{_MON})\.?\s+(?P<d>\d{{1,2}})(?:st|nd|rd|th)?,?\s+(?P<y>\d{{4}})")
 SPAN_RE = re.compile(
-    rf"(?P<m1>{_MON})\.?\s+(?P<d1>\d{{1,2}})\s*[-–—]\s*"
+    rf"(?P<m1>{_MON})\.?\s+(?P<d1>\d{{1,2}})\s*(?:[-–—]|&|and)\s*"
     rf"(?:(?P<m2>{_MON})\.?\s+)?(?P<d2>\d{{1,2}}),?\s+(?P<y>\d{{4}})"
 )
 

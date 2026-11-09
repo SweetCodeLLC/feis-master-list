@@ -6,6 +6,7 @@ Usage: python tools/probe.py URL [URL ...]   (run from the repo root)
 Small pages are printed in full; large pages get a readable text view, sample event rows and a structural
 skeleton (repeated tag/class combos, link patterns, script sources). Every printed
 line is indented so page content can never be read as a GitHub workflow command."""
+import json
 import re
 import sys
 from collections import Counter
@@ -133,7 +134,45 @@ def js_endpoints(js: str, limit: int = 120) -> str:
     return "\n".join(found[:limit]) or "(no API-looking strings found)"
 
 
+EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
+
+
+def _mask(v, depth=0):
+    """Shrink a JSON value for logging: mask e-mails, truncate strings, keep a few list items."""
+    if isinstance(v, str):
+        v = EMAIL_RE.sub("<email>", v)
+        return v if len(v) <= 80 else v[:80] + "..."
+    if isinstance(v, list):
+        return [_mask(x, depth + 1) for x in v[:3]] + ([f"... ({len(v)} items)"] if len(v) > 3 else [])
+    if isinstance(v, dict):
+        if depth > 4:
+            return "{...}"
+        return {k: _mask(x, depth + 1) for k, x in list(v.items())[:40]}
+    return v
+
+
+def json_summary(text: str):
+    """Structure summary of a JSON response, or None when the body is not JSON."""
+    try:
+        data = json.loads(text)
+    except ValueError:
+        return None
+    lines = [f"JSON top-level: {type(data).__name__}"]
+    items = data if isinstance(data, list) else next(
+        (v for v in data.values() if isinstance(v, list)), None) if isinstance(data, dict) else None
+    if items is not None:
+        lines.append(f"items: {len(items)}")
+        keys = Counter(k for it in items if isinstance(it, dict) for k in it)
+        lines.append("keys (count): " + ", ".join(f"{k}={n}" for k, n in keys.most_common(60)))
+    lines.append(json.dumps(_mask(data), indent=1, ensure_ascii=False)[:6000])
+    return "\n".join(lines)
+
+
 def emit(url: str, status: int, html: str, hints: list[str]) -> None:
+    js = json_summary(html)
+    if js is not None:
+        block(f"JSON {url} (HTTP {status})", js)
+        return
     out(f"===== BEGIN {url} (HTTP {status}, {len(html)} chars) =====")
     if urlparse(url).path.lower().endswith(".js"):
         block("API-looking strings in bundle", js_endpoints(html))
