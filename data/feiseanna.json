@@ -1,117 +1,29 @@
 {
- "count": 19,
+ "count": 52,
  "feiseanna": [
   {
-   "address": "902 Loveland-Miamiville Rd",
-   "city": "Loveland",
-   "country": "US",
-   "end_date": "2026-11-08",
-   "extra": {},
-   "host": "Cincinnati Irish Cultural Society",
-   "name": "Cincinnati Feis",
-   "region": "Mid America",
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "idtana",
-   "source_id": "10961",
-   "source_url": "https://idtana.org/events/cincinnati-feis-2/",
-   "sources": [
-    {
-     "source": "idtana",
-     "url": "https://idtana.org/events/cincinnati-feis-2/"
-    }
-   ],
-   "start_date": "2026-11-07",
-   "state": "OH",
-   "venue": "The Oasis Conference Center",
-   "website": "https://www.mcgingdancers.com/cincinnati-feis/"
-  },
-  {
-   "address": "9755 Henderson Rd",
-   "city": "Brighton",
-   "country": "US",
-   "end_date": "2026-11-08",
-   "extra": {
-    "registration_status": "Registration is CLOSED"
-   },
-   "host": "McTeggart Irish Dancers Colorado",
-   "name": "Colorado State Championships & Fall Feis",
-   "region": "Western US",
-   "registration_links": {
-    "feisworx": "https://feisworx.com/"
-   },
-   "source": "idtana",
-   "source_id": "9699",
-   "source_url": "https://idtana.org/events/colorado-state-championships-fall-feis/",
-   "sources": [
-    {
-     "source": "idtana",
-     "url": "https://idtana.org/events/colorado-state-championships-fall-feis/"
-    },
-    {
-     "source": "feisworx",
-     "url": "https://www.feisworx.com/feisinfo.php"
-    }
-   ],
-   "start_date": "2026-11-07",
-   "state": "CO",
-   "venue": "Adams County Fairgrounds @ Riverdale Regional Park",
-   "website": "https://sites.google.com/view/coloradostatefeis/home"
-  },
-  {
-   "address": "3303 Pinnacle Hills",
-   "city": "Rogers",
-   "country": "US",
-   "end_date": "2026-11-08",
-   "extra": {},
-   "host": "Ozark Mountain Irish Arts + Rince Arkansas Academy of Irish Dance",
-   "name": "Diamond State Feis",
-   "region": "Southern",
-   "registration_links": {
-    "ifeis": "http://ifeis.net"
-   },
-   "source": "idtana",
-   "source_id": "11134",
-   "source_url": "https://idtana.org/events/diamond-state-feis-4/",
-   "sources": [
-    {
-     "source": "idtana",
-     "url": "https://idtana.org/events/diamond-state-feis-4/"
-    }
-   ],
-   "start_date": "2026-11-08",
-   "state": "AR",
-   "venue": null,
-   "website": "https://rincearkansas.com/om-feis/"
-  },
-  {
    "address": null,
-   "city": "Los Angeles",
-   "country": "US",
-   "end_date": "2026-11-08",
-   "extra": {
-    "registration_status": "Registration is CLOSED"
-   },
-   "host": "DeBarra Academy",
-   "name": "South Bay Feis 2026",
-   "region": null,
-   "registration_links": {
-    "feisworx": "https://www.feisworx.com/feisinfo.php"
-   },
-   "source": "feisworx",
-   "source_id": "2423",
-   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "city": null,
+   "country": "CA",
+   "end_date": "2026-11-15",
+   "extra": {},
+   "host": null,
+   "name": "Western Canada Regional Oireachtas",
+   "region": "Western Canada",
+   "registration_links": {},
+   "source": "western_canada",
+   "source_id": "western-canada-regional-oireachtas-2026-11-13",
+   "source_url": null,
    "sources": [
     {
-     "source": "feisworx",
-     "url": "https://www.feisworx.com/feisinfo.php"
+     "source": "western_canada",
+     "url": null
     }
    ],
-   "start_date": "2026-11-08",
-   "state": "CA",
-   "venue": null,
-   "website": null
+   "start_date": "2026-11-13",
+   "state": null,
+   "venue": "Hyatt Regency Calgary",
+   "website": "https://wcidta.ca/oireachtas"
   },
   {
    "address": "2131 Lindau Ln",
@@ -222,6 +134,64 @@
    "website": null
   },
   {
+   "address": "400 W Wisconsin Ave",
+   "city": "Milwaukee",
+   "country": "US",
+   "end_date": "2026-11-29",
+   "extra": {
+    "registration_closes": "2026-10-01",
+    "registration_opens": "2026-09-01"
+   },
+   "host": null,
+   "name": "2026 Mid-America Oireachtas",
+   "region": "Mid America",
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "2026-mid-america-oireachtas-2026-11-27",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2026-11-27",
+   "state": "WI",
+   "venue": "The Baird Center",
+   "website": null
+  },
+  {
+   "address": "2201 N Stemmons Freeway",
+   "city": "Dallas",
+   "country": "US",
+   "end_date": "2026-12-06",
+   "extra": {
+    "registration_closes": "2026-10-01",
+    "registration_opens": "2026-09-01"
+   },
+   "host": null,
+   "name": "2026 Southern Region Oireachtas",
+   "region": "Southern",
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "2026-southern-region-oireachtas-2026-12-04",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2026-12-04",
+   "state": "TX",
+   "venue": "Hilton Anatole",
+   "website": null
+  },
+  {
    "address": null,
    "city": "Rancho Mirage",
    "country": "US",
@@ -231,7 +201,7 @@
    },
    "host": "Claddagh School of Irish Dancing",
    "name": "Feile na Nollaig 2026",
-   "region": null,
+   "region": "Eastern Canada",
    "registration_links": {
     "feisworx": "https://www.feisworx.com/feisinfo.php"
    },
@@ -242,12 +212,69 @@
     {
      "source": "feisworx",
      "url": "https://www.feisworx.com/feisinfo.php"
+    },
+    {
+     "source": "eastern_canada",
+     "url": null
     }
    ],
    "start_date": "2026-12-05",
    "state": "CA",
    "venue": null,
    "website": null
+  },
+  {
+   "address": "2201 N Stemmons Freeway",
+   "city": "Dallas",
+   "country": "US",
+   "end_date": "2026-12-06",
+   "extra": {
+    "registration_closes": "2026-11-03",
+    "registration_opens": "2026-09-03"
+   },
+   "host": null,
+   "name": "IDTANA Southern Region Mini Feis",
+   "region": "Southern",
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "idtana-southern-region-mini-feis-2026-12-06",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2026-12-06",
+   "state": "TX",
+   "venue": "Hilton Anatole",
+   "website": null
+  },
+  {
+   "address": "Franklin Street",
+   "city": "Hanson",
+   "country": "US",
+   "end_date": "2026-12-06",
+   "extra": {},
+   "host": "Haley School and Heavey Quinn School",
+   "name": "Realt na Nollag Feis (Christmas Star Feis)",
+   "region": "New England",
+   "registration_links": {},
+   "source": "new_england",
+   "source_id": "realt-na-nollag-feis-christmas-star-feis-2026-12-06",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "new_england",
+     "url": null
+    }
+   ],
+   "start_date": "2026-12-06",
+   "state": "MA",
+   "venue": "Whitman Hanson Regional High School",
+   "website": "http://www.heaveyquinn.com"
   },
   {
    "address": null,
@@ -278,6 +305,64 @@
    "website": null
   },
   {
+   "address": "1111 Airport Boulevard",
+   "city": "Coraopolis",
+   "country": "US",
+   "end_date": "2026-12-26",
+   "extra": {
+    "registration_closes": "2026-12-14",
+    "registration_opens": "2026-10-10"
+   },
+   "host": null,
+   "name": "Pittsburgh Winter Feis",
+   "region": "Mid America",
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "pittsburgh-winter-feis-2026-12-26",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2026-12-26",
+   "state": "PA",
+   "venue": "Hyatt Regency",
+   "website": null
+  },
+  {
+   "address": "1111 Airport Boulevard",
+   "city": "Coraopolis",
+   "country": "US",
+   "end_date": "2026-12-27",
+   "extra": {
+    "registration_closes": "2026-12-14",
+    "registration_opens": "2026-10-10"
+   },
+   "host": null,
+   "name": "Pittsburgh Snow Feis",
+   "region": "Mid America",
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "pittsburgh-snow-feis-2026-12-27",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2026-12-27",
+   "state": "PA",
+   "venue": "Hyatt Regency",
+   "website": null
+  },
+  {
    "address": "8235 NE Airport Way",
    "city": "Portland",
    "country": "US",
@@ -304,6 +389,34 @@
    "website": "https://sites.google.com/pacificcelticfoundation.org/feiseanna/home/portland-new-years-feis"
   },
   {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-01-16",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Wisconsin Winter Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "wisconsin-winter-feis-2027-01-16",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-01-16",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
    "address": "8235 NE Airport Way",
    "city": "Portland",
    "country": "US",
@@ -328,6 +441,34 @@
    "state": "OR",
    "venue": "Sheraton Portland Airport Hotel",
    "website": "https://sites.google.com/pacificcelticfoundation.org/feiseanna/home/northwest-winterfeis"
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-01-17",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "St Brigid Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "st-brigid-feis-2027-01-17",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-01-17",
+   "state": null,
+   "venue": null,
+   "website": null
   },
   {
    "address": "6185 Arapahoe Rd",
@@ -412,6 +553,60 @@
    "website": "http://www.scariffschool.com"
   },
   {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-01-30",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Queen City Mini Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "queen-city-mini-feis-2027-01-30",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-01-30",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-01-31",
+   "extra": {},
+   "host": null,
+   "name": "Western Canadian Open - Home of the Alberta Belt",
+   "region": "Western Canada",
+   "registration_links": {
+    "feisfwd": "https://feisfwd.com"
+   },
+   "source": "western_canada",
+   "source_id": "western-canadian-open-home-of-the-alberta-belt-2027-01-30",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-01-30",
+   "state": null,
+   "venue": "Viking Rentals Centre (formerly Foothills Centennial Centre)",
+   "website": "https://www.westerncanadianopen.com"
+  },
+  {
    "address": "24 Public Square",
    "city": "Cleveland",
    "country": "US",
@@ -436,6 +631,88 @@
    "state": "OH",
    "venue": "Hotel Cleveland",
    "website": "http://www.leneghanacademy.com"
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-02-06",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Raleigh Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "raleigh-feis-2027-02-06",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-02-06",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-02-06",
+   "extra": {},
+   "host": "O\u2019Brien School of Irish Dance and OSIDPA",
+   "name": "Salish Sea Feis",
+   "region": "Western Canada",
+   "registration_links": {
+    "ifeis": "https://www.ifeis.net"
+   },
+   "source": "western_canada",
+   "source_id": "salish-sea-feis-2027-02-06",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-02-06",
+   "state": null,
+   "venue": "Mary Winspear Centre",
+   "website": "https://obrienirishdance.com"
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-02-07",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "City of Oaks Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "city-of-oaks-feis-2027-02-07",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-02-07",
+   "state": null,
+   "venue": null,
+   "website": null
   },
   {
    "address": "24 Public Square",
@@ -464,6 +741,34 @@
    "website": "https://www.signupgenius.com/go/10C0C49A9AF2DA7FE3-66117523-north"
   },
   {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-02-13",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "For the Love of Ireland Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "for-the-love-of-ireland-feis-2027-02-13",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-02-13",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
    "address": "4900 Balloon Fiesta Pkwy NE",
    "city": "Albuquerque",
    "country": "US",
@@ -490,6 +795,198 @@
    "website": "https://irishdancenewmexico.com/"
   },
   {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-02-14",
+   "extra": {},
+   "host": "Van Eire Traditional Dance Association",
+   "name": "Van Eire Feis",
+   "region": "Western Canada",
+   "registration_links": {
+    "ifeis": "https://Ifeis.net"
+   },
+   "source": "western_canada",
+   "source_id": "van-eire-feis-2027-02-13",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-02-13",
+   "state": null,
+   "venue": "Richmond Olympic Oval",
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-02-14",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Black and White Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "black-and-white-feis-2027-02-14",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-02-14",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-03-07",
+   "extra": {},
+   "host": "RINCE Parents Association and Knock O\u2019Hogan School of Irish Dance",
+   "name": "Feis Solas Nua",
+   "region": "Western Canada",
+   "registration_links": {
+    "feisfwd": "https://www.feisfwd.com"
+   },
+   "source": "western_canada",
+   "source_id": "feis-solas-nua-2027-03-06",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-03-06",
+   "state": null,
+   "venue": "Edmonton Convention Centre",
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-03-20",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "West Virginia Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "west-virginia-feis-2027-03-20",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-03-20",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-03-21",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Bell Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "bell-feis-2027-03-21",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-03-21",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-04-03",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Richens Timm SATURDAY Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "richens-timm-saturday-feis-2027-04-03",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-04-03",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-04-04",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Richens Timm SUNDAY Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "richens-timm-sunday-feis-2027-04-04",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-04-04",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
    "address": "605 W Fireweed Ln.",
    "city": "Anchorage",
    "country": "US",
@@ -514,6 +1011,403 @@
    "state": "AK",
    "venue": "North Star Elementary School",
    "website": "https://sites.google.com/pacificcelticfoundation.org/feiseanna/home/alaska-state-feis"
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-04-25",
+   "extra": {},
+   "host": null,
+   "name": "Mattierin Spring Feis in the West",
+   "region": "Western Canada",
+   "registration_links": {},
+   "source": "western_canada",
+   "source_id": "mattierin-spring-feis-in-the-west-2027-04-24",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-04-24",
+   "state": null,
+   "venue": "Westin Hotel Downtown Edmonton",
+   "website": "https://www.mattierin.ca/feisinthewest"
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-05-23",
+   "extra": {},
+   "host": null,
+   "name": "West Coast Championships & Penk O\u2019Donnell Spring Feis",
+   "region": "Western Canada",
+   "registration_links": {
+    "ifeis": "https://www.ifeis.net"
+   },
+   "source": "western_canada",
+   "source_id": "west-coast-championships-penk-o-donnell-spring-feis-2027-05-22",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-05-22",
+   "state": null,
+   "venue": "Port Moody Secondary School",
+   "website": "https://www.penkodonnell.ca/feiseanna"
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-05-30",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Chicago Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "chicago-feis-2027-05-29",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-05-29",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-06-05",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Buffalo Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "buffalo-feis-2027-06-05",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-06-05",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-06-05",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Kinsella Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "kinsella-feis-2027-06-05",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-06-05",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-06-06",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Cream City Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "cream-city-feis-2027-06-06",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-06-06",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-06-13",
+   "extra": {},
+   "host": null,
+   "name": "Feis on the Flatlands",
+   "region": "Western Canada",
+   "registration_links": {
+    "feisfwd": "https://feisfwd.com"
+   },
+   "source": "western_canada",
+   "source_id": "feis-on-the-flatlands-2027-06-12",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-06-12",
+   "state": null,
+   "venue": "Saskatoon Inn & Conference Centre",
+   "website": "https://www.rivercityirishdance.com"
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-06-19",
+   "extra": {},
+   "host": null,
+   "name": "Sea to Sky Open",
+   "region": "Western Canada",
+   "registration_links": {
+    "ifeis": "https://www.ifeis.net"
+   },
+   "source": "western_canada",
+   "source_id": "sea-to-sky-open-2027-06-19",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-06-19",
+   "state": null,
+   "venue": "Sheraton Vancouver Guildford Hotel",
+   "website": "https://www.steelschoolofirishdance.com/"
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-06-20",
+   "extra": {},
+   "host": null,
+   "name": "Mad Hatter Championships",
+   "region": "Western Canada",
+   "registration_links": {
+    "ifeis": "https://www.ifeis.net"
+   },
+   "source": "western_canada",
+   "source_id": "mad-hatter-championships-2027-06-20",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-06-20",
+   "state": null,
+   "venue": "Sheraton Vancouver Guildford Hotel",
+   "website": "https://www.steelschoolofirishdance.com/"
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-06-27",
+   "extra": {},
+   "host": "TDL Irish Dance Society and Blakey O\u2019Brien School of Irish Dance",
+   "name": "Wild West Irish Dancing Championships",
+   "region": "Western Canada",
+   "registration_links": {
+    "feisfwd": "https://app.feisfwd.com/"
+   },
+   "source": "western_canada",
+   "source_id": "wild-west-irish-dancing-championships-2027-06-25",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-06-25",
+   "state": null,
+   "venue": "Mount Royal University, Ross Glen Hall",
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-07-25",
+   "extra": {
+    "date_inferred_from_weekday": true
+   },
+   "host": null,
+   "name": "Tessie Burke Jig Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "tessie-burke-jig-feis-2027-07-25",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-07-25",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": null,
+   "end_date": "2027-07-25",
+   "extra": {
+    "date_inferred_from_weekday": true,
+    "date_uncertain": "'Jul 25' on 'Saturday' matches no upcoming year"
+   },
+   "host": null,
+   "name": "Tessie Burke Reel Feis",
+   "region": null,
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "tessie-burke-reel-feis-2027-07-25",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-07-25",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-10-24",
+   "extra": {},
+   "host": "O\u2019Connor School of Irish Dance and Rince Na Gael Celtic Heritage Society BC",
+   "name": "Feili an Chladaigh",
+   "region": "Western Canada",
+   "registration_links": {},
+   "source": "western_canada",
+   "source_id": "feili-an-chladaigh-2027-10-23",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-10-23",
+   "state": null,
+   "venue": "The Pipe Shop at the Shipyards",
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2028-02-20",
+   "extra": {},
+   "host": "Van Eire Traditional Dance Association",
+   "name": "Van Eire Feis",
+   "region": "Western Canada",
+   "registration_links": {
+    "ifeis": "https://Ifeis.net"
+   },
+   "source": "western_canada",
+   "source_id": "van-eire-feis-2028-02-19",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2028-02-19",
+   "state": null,
+   "venue": "Richmond Olympic Oval",
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2028-03-26",
+   "extra": {},
+   "host": null,
+   "name": "Mattierin Spring Feis in the West",
+   "region": "Western Canada",
+   "registration_links": {},
+   "source": "western_canada",
+   "source_id": "mattierin-spring-feis-in-the-west-2028-03-25",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "western_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2028-03-25",
+   "state": null,
+   "venue": "Westin Hotel Downtown Edmonton",
+   "website": "https://www.mattierin.ca/feisinthewest"
   }
  ]
 }

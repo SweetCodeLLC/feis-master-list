@@ -1,1 +1,44 @@
-[]
+[
+ {
+  "address": "West Street",
+  "city": "Natick",
+  "country": "US",
+  "end_date": null,
+  "extra": {
+   "postponed": "new date TBD"
+  },
+  "host": "Kylie and Michaela Maida",
+  "name": "Hansen Keohane Memorial Feis",
+  "region": "New England",
+  "registration_links": {},
+  "source": "new_england",
+  "source_id": "hansen-keohane-memorial-feis-None",
+  "source_url": null,
+  "sources": [],
+  "start_date": null,
+  "state": "MA",
+  "venue": "Natick High School",
+  "website": "https://www.facebook.com/profile.php?id=100083347201874"
+ },
+ {
+  "address": null,
+  "city": "Coppell",
+  "country": "US",
+  "end_date": null,
+  "extra": {},
+  "host": "McTeggart School",
+  "name": "Cowtown Feis",
+  "region": "Southern",
+  "registration_links": {
+   "feisworx": "http://www.feisworx.com"
+  },
+  "source": "southern",
+  "source_id": "cowtown-feis-None",
+  "source_url": null,
+  "sources": [],
+  "start_date": null,
+  "state": "TX",
+  "venue": null,
+  "website": null
+ }
+]
