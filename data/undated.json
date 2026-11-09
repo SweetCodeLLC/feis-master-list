@@ -9,6 +9,7 @@
   },
   "host": "Kylie and Michaela Maida",
   "name": "Hansen Keohane Memorial Feis",
+  "platform_ids": {},
   "region": "New England",
   "registration_links": {},
   "source": "new_england",
@@ -28,6 +29,7 @@
   "extra": {},
   "host": "McTeggart School",
   "name": "Cowtown Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"

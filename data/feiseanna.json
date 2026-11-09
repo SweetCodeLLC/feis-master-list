@@ -9,6 +9,7 @@
    "extra": {},
    "host": null,
    "name": "Western Canada Regional Oireachtas",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {},
    "source": "western_canada",
@@ -33,6 +34,7 @@
    "extra": {},
    "host": "The Irish Dance Parent Association and O\u2019Shea Irish Dance",
    "name": "Minnesota State Championship",
+   "platform_ids": {},
    "region": "Mid America",
    "registration_links": {
     "feisfwd": "https://www.feisfwd.com/"
@@ -59,6 +61,7 @@
    "extra": {},
    "host": "The Irish Dance Parent Association and O\u2019Shea Irish Dance",
    "name": "St. Paul Autumn Feis",
+   "platform_ids": {},
    "region": "Mid America",
    "registration_links": {
     "feisfwd": "https://www.feisfwd.com/"
@@ -87,6 +90,9 @@
    },
    "host": "IDTANA Western Region",
    "name": "Western US Region Oireachtas 2026",
+   "platform_ids": {
+    "feisworx": "2410"
+   },
    "region": null,
    "registration_links": {
     "feisworx": "https://www.feisworx.com/feisinfo.php"
@@ -115,6 +121,9 @@
    },
    "host": "IDTANA Western Region",
    "name": "WUSR Oireachtas Mini-Feis 2026",
+   "platform_ids": {
+    "feisworx": "2424"
+   },
    "region": null,
    "registration_links": {
     "feisworx": "https://www.feisworx.com/feisinfo.php"
@@ -144,6 +153,7 @@
    },
    "host": null,
    "name": "2026 Mid-America Oireachtas",
+   "platform_ids": {},
    "region": "Mid America",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -173,6 +183,7 @@
    },
    "host": null,
    "name": "2026 Southern Region Oireachtas",
+   "platform_ids": {},
    "region": "Southern",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -201,6 +212,9 @@
    },
    "host": "Claddagh School of Irish Dancing",
    "name": "Feile na Nollaig 2026",
+   "platform_ids": {
+    "feisworx": "2425"
+   },
    "region": "Eastern Canada",
    "registration_links": {
     "feisworx": "https://www.feisworx.com/feisinfo.php"
@@ -234,6 +248,7 @@
    },
    "host": null,
    "name": "IDTANA Southern Region Mini Feis",
+   "platform_ids": {},
    "region": "Southern",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -260,6 +275,7 @@
    "extra": {},
    "host": "Haley School and Heavey Quinn School",
    "name": "Realt na Nollag Feis (Christmas Star Feis)",
+   "platform_ids": {},
    "region": "New England",
    "registration_links": {},
    "source": "new_england",
@@ -286,6 +302,9 @@
    },
    "host": "Claddagh School of Irish Dancing",
    "name": "The Christmas Feis 2026",
+   "platform_ids": {
+    "feisworx": "2426"
+   },
    "region": null,
    "registration_links": {
     "feisworx": "https://www.feisworx.com/feisinfo.php"
@@ -315,6 +334,7 @@
    },
    "host": null,
    "name": "Pittsburgh Winter Feis",
+   "platform_ids": {},
    "region": "Mid America",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -344,6 +364,7 @@
    },
    "host": null,
    "name": "Pittsburgh Snow Feis",
+   "platform_ids": {},
    "region": "Mid America",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -370,6 +391,7 @@
    "extra": {},
    "host": "An Daire Academy of Irish Dance & Pacific Celtic Foundation",
    "name": "Portland New Year\u2019s Feis",
+   "platform_ids": {},
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://www.feisworx.com/"
@@ -398,6 +420,7 @@
    },
    "host": null,
    "name": "Wisconsin Winter Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -424,6 +447,7 @@
    "extra": {},
    "host": "An Daire Academy of Irish Dance & Pacific Celtic Foundation",
    "name": "Northwest Winterfeis",
+   "platform_ids": {},
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://www.feisworx.com/"
@@ -452,6 +476,7 @@
    },
    "host": null,
    "name": "St Brigid Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -478,6 +503,7 @@
    "extra": {},
    "host": "McTeggart",
    "name": "Avalon Winterfeis",
+   "platform_ids": {},
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://feisworx.com/"
@@ -506,6 +532,9 @@
    },
    "host": "Scariff Locklier Leonelli School of Irish Dancing",
    "name": "Feis On The Gulf 2027",
+   "platform_ids": {
+    "feisworx": "2428"
+   },
    "region": null,
    "registration_links": {
     "feisworx": "https://www.feisworx.com/feisinfo.php"
@@ -534,6 +563,9 @@
    },
    "host": "Scariff School of Irish Dance",
    "name": "Florida State Championships 2027",
+   "platform_ids": {
+    "feisworx": "2429"
+   },
    "region": null,
    "registration_links": {
     "feisworx": "https://www.feisworx.com/feisinfo.php"
@@ -562,6 +594,7 @@
    },
    "host": null,
    "name": "Queen City Mini Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -588,6 +621,7 @@
    "extra": {},
    "host": null,
    "name": "Western Canadian Open - Home of the Alberta Belt",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "feisfwd": "https://feisfwd.com"
@@ -614,6 +648,7 @@
    "extra": {},
    "host": "North Coast Feis",
    "name": "North Coast Feis",
+   "platform_ids": {},
    "region": "Mid America",
    "registration_links": {
     "feisworx": "http://www.feisworx.com"
@@ -642,6 +677,7 @@
    },
    "host": null,
    "name": "Raleigh Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -668,6 +704,7 @@
    "extra": {},
    "host": "O\u2019Brien School of Irish Dance and OSIDPA",
    "name": "Salish Sea Feis",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "ifeis": "https://www.ifeis.net"
@@ -696,6 +733,7 @@
    },
    "host": null,
    "name": "City of Oaks Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -722,6 +760,7 @@
    "extra": {},
    "host": "Leneghan Academy for North Coast Feis",
    "name": "North Coast Feis Grade Exams",
+   "platform_ids": {},
    "region": "Mid America",
    "registration_links": {
     "other": "https://www.signupgenius.com/go/10C0C49A9AF2DA7FE3-66117523-north"
@@ -750,6 +789,7 @@
    },
    "host": null,
    "name": "For the Love of Ireland Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -776,6 +816,7 @@
    "extra": {},
    "host": "McTeggart Irish Dancers New Mexico",
    "name": "New Mexico State Championships & Feis on the Rio Grande",
+   "platform_ids": {},
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://feisworx.com/"
@@ -802,6 +843,7 @@
    "extra": {},
    "host": "Van Eire Traditional Dance Association",
    "name": "Van Eire Feis",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "ifeis": "https://Ifeis.net"
@@ -830,6 +872,7 @@
    },
    "host": null,
    "name": "Black and White Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -856,6 +899,7 @@
    "extra": {},
    "host": "RINCE Parents Association and Knock O\u2019Hogan School of Irish Dance",
    "name": "Feis Solas Nua",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "feisfwd": "https://www.feisfwd.com"
@@ -884,6 +928,7 @@
    },
    "host": null,
    "name": "West Virginia Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -912,6 +957,7 @@
    },
    "host": null,
    "name": "Bell Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -940,6 +986,7 @@
    },
    "host": null,
    "name": "Richens Timm SATURDAY Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -968,6 +1015,7 @@
    },
    "host": null,
    "name": "Richens Timm SUNDAY Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -994,6 +1042,7 @@
    "extra": {},
    "host": "Pacific Celtic Foundation",
    "name": "Alaska State Feis",
+   "platform_ids": {},
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://www.feisworx.com/"
@@ -1020,6 +1069,7 @@
    "extra": {},
    "host": null,
    "name": "Mattierin Spring Feis in the West",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {},
    "source": "western_canada",
@@ -1044,6 +1094,7 @@
    "extra": {},
    "host": null,
    "name": "West Coast Championships & Penk O\u2019Donnell Spring Feis",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "ifeis": "https://www.ifeis.net"
@@ -1072,6 +1123,7 @@
    },
    "host": null,
    "name": "Chicago Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -1100,6 +1152,7 @@
    },
    "host": null,
    "name": "Buffalo Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -1128,6 +1181,7 @@
    },
    "host": null,
    "name": "Kinsella Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -1156,6 +1210,7 @@
    },
    "host": null,
    "name": "Cream City Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -1182,6 +1237,7 @@
    "extra": {},
    "host": null,
    "name": "Feis on the Flatlands",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "feisfwd": "https://feisfwd.com"
@@ -1208,6 +1264,7 @@
    "extra": {},
    "host": null,
    "name": "Sea to Sky Open",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "ifeis": "https://www.ifeis.net"
@@ -1234,6 +1291,7 @@
    "extra": {},
    "host": null,
    "name": "Mad Hatter Championships",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "ifeis": "https://www.ifeis.net"
@@ -1260,6 +1318,7 @@
    "extra": {},
    "host": "TDL Irish Dance Society and Blakey O\u2019Brien School of Irish Dance",
    "name": "Wild West Irish Dancing Championships",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "feisfwd": "https://app.feisfwd.com/"
@@ -1288,6 +1347,7 @@
    },
    "host": null,
    "name": "Tessie Burke Jig Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -1317,6 +1377,7 @@
    },
    "host": null,
    "name": "Tessie Burke Reel Feis",
+   "platform_ids": {},
    "region": null,
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -1343,6 +1404,7 @@
    "extra": {},
    "host": "O\u2019Connor School of Irish Dance and Rince Na Gael Celtic Heritage Society BC",
    "name": "Feili an Chladaigh",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {},
    "source": "western_canada",
@@ -1367,6 +1429,7 @@
    "extra": {},
    "host": "Van Eire Traditional Dance Association",
    "name": "Van Eire Feis",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {
     "ifeis": "https://Ifeis.net"
@@ -1393,6 +1456,7 @@
    "extra": {},
    "host": null,
    "name": "Mattierin Spring Feis in the West",
+   "platform_ids": {},
    "region": "Western Canada",
    "registration_links": {},
    "source": "western_canada",

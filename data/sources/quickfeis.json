@@ -9,6 +9,7 @@
   },
   "host": null,
   "name": "Wisconsin Winter Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -32,6 +33,7 @@
   },
   "host": null,
   "name": "St Brigid Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -55,6 +57,7 @@
   },
   "host": null,
   "name": "Queen City Mini Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -78,6 +81,7 @@
   },
   "host": null,
   "name": "Raleigh Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -101,6 +105,7 @@
   },
   "host": null,
   "name": "City of Oaks Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -124,6 +129,7 @@
   },
   "host": null,
   "name": "For the Love of Ireland Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -147,6 +153,7 @@
   },
   "host": null,
   "name": "Black and White Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -170,6 +177,7 @@
   },
   "host": null,
   "name": "West Virginia Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -193,6 +201,7 @@
   },
   "host": null,
   "name": "Bell Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -216,6 +225,7 @@
   },
   "host": null,
   "name": "Richens Timm SATURDAY Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -239,6 +249,7 @@
   },
   "host": null,
   "name": "Richens Timm SUNDAY Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -262,6 +273,7 @@
   },
   "host": null,
   "name": "Chicago Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -285,6 +297,7 @@
   },
   "host": null,
   "name": "Kinsella Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -308,6 +321,7 @@
   },
   "host": null,
   "name": "Cream City Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -331,6 +345,7 @@
   },
   "host": null,
   "name": "Buffalo Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -354,6 +369,7 @@
   },
   "host": null,
   "name": "Tessie Burke Jig Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -378,6 +394,7 @@
   },
   "host": null,
   "name": "Tessie Burke Reel Feis",
+  "platform_ids": {},
   "region": null,
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -392,54 +409,6 @@
   "website": null
  },
  {
-  "address": "28156 W. Northpointe Pkwy",
-  "city": "Lake Barrington",
-  "country": "US",
-  "end_date": "2026-11-08",
-  "extra": {
-   "registration_closes": "2026-10-26",
-   "registration_opens": "2026-09-11"
-  },
-  "host": null,
-  "name": "Chicago Autumn Feis",
-  "region": "Mid America",
-  "registration_links": {
-   "quickfeis": "https://www.quickfeis.com/"
-  },
-  "source": "quickfeis",
-  "source_id": "chicago-autumn-feis-2026-11-08",
-  "source_url": "https://www.quickfeis.com/",
-  "sources": [],
-  "start_date": "2026-11-08",
-  "state": "IL",
-  "venue": "Canlan Sports",
-  "website": null
- },
- {
-  "address": "902 Loveland-Miamiville Road",
-  "city": "Loveland",
-  "country": "US",
-  "end_date": "2026-11-08",
-  "extra": {
-   "registration_closes": "2026-10-26",
-   "registration_opens": "2026-09-24"
-  },
-  "host": null,
-  "name": "Cincinnati Feis",
-  "region": "Mid America",
-  "registration_links": {
-   "quickfeis": "https://www.quickfeis.com/"
-  },
-  "source": "quickfeis",
-  "source_id": "cincinnati-feis-2026-11-07",
-  "source_url": "https://www.quickfeis.com/",
-  "sources": [],
-  "start_date": "2026-11-07",
-  "state": "OH",
-  "venue": "The Oasis Conference Center",
-  "website": null
- },
- {
   "address": "2201 N Stemmons Freeway",
   "city": "Dallas",
   "country": "US",
@@ -450,6 +419,7 @@
   },
   "host": null,
   "name": "IDTANA Southern Region Mini Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -474,6 +444,7 @@
   },
   "host": null,
   "name": "Pittsburgh Winter Feis",
+  "platform_ids": {},
   "region": "Mid America",
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -498,6 +469,7 @@
   },
   "host": null,
   "name": "Pittsburgh Snow Feis",
+  "platform_ids": {},
   "region": "Mid America",
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -522,6 +494,7 @@
   },
   "host": null,
   "name": "2026 Mid-America Oireachtas",
+  "platform_ids": {},
   "region": "Mid America",
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"
@@ -546,6 +519,7 @@
   },
   "host": null,
   "name": "2026 Southern Region Oireachtas",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "quickfeis": "https://www.quickfeis.com/"

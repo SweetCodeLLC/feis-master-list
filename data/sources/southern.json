@@ -7,6 +7,7 @@
   "extra": {},
   "host": "Scariff School",
   "name": "Feis On The Gulf",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -28,6 +29,7 @@
   "extra": {},
   "host": "Scariff School",
   "name": "Florida State Championships",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -49,6 +51,7 @@
   "extra": {},
   "host": "Inis Cairde",
   "name": "The Raleigh Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "quickfeis": "http://www.quickfeis.com"
@@ -70,6 +73,7 @@
   "extra": {},
   "host": "Inis Cairde",
   "name": "City Of Oaks Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "quickfeis": "http://www.quickfeis.com"
@@ -91,6 +95,7 @@
   "extra": {},
   "host": "Irish Dancing De Mexico",
   "name": "Mexico Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {},
   "source": "southern",
@@ -110,6 +115,7 @@
   "extra": {},
   "host": "McTeggart School",
   "name": "Texas State Championship & Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -131,6 +137,7 @@
   "extra": {},
   "host": "McTeggart School",
   "name": "Cowtown Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -152,6 +159,7 @@
   "extra": {},
   "host": "Walsh Kelley School",
   "name": "Carolina State Champioships & Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -173,6 +181,7 @@
   "extra": {},
   "host": "Walsh Kelley School",
   "name": "Walsh Kelley Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -194,6 +203,7 @@
   "extra": {},
   "host": "Drake School",
   "name": "Palmetto State Feis & Southern Championship Belt",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -215,6 +225,7 @@
   "extra": {},
   "host": "Karyn Oster ADCRG",
   "name": "The Tennessee Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -236,6 +247,7 @@
   "extra": {},
   "host": "McCafferty School",
   "name": "Red Fern Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -257,6 +269,7 @@
   "extra": {},
   "host": "McCafferty School",
   "name": "Cherokee Capital Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -278,6 +291,7 @@
   "extra": {},
   "host": "Drake School",
   "name": "Peach State Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -299,6 +313,7 @@
   "extra": {},
   "host": "Drake School",
   "name": "Feile Georgia",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -320,6 +335,7 @@
   "extra": {},
   "host": "Connick School & Reid Academy",
   "name": "Connick School & Reid Academy Spring Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -341,6 +357,7 @@
   "extra": {},
   "host": "Connick School & Reid Academy",
   "name": "Connick School & Reid Academy Summer Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -362,6 +379,7 @@
   "extra": {},
   "host": "Watters School",
   "name": "Orlando Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {},
   "source": "southern",
@@ -381,6 +399,7 @@
   "extra": {},
   "host": "Watters School",
   "name": "Alter Ego Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {},
   "source": "southern",
@@ -400,6 +419,7 @@
   "extra": {},
   "host": "Walsh Kelley School",
   "name": "Carolina Spring Championships",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -421,6 +441,7 @@
   "extra": {},
   "host": "Burke Connolly",
   "name": "Burke Connolly Feis & Championships",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {},
   "source": "southern",
@@ -440,6 +461,7 @@
   "extra": {},
   "host": "Burke Connolly",
   "name": "Feis na Tara",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {},
   "source": "southern",
@@ -459,6 +481,7 @@
   "extra": {},
   "host": "Walsh Kelley School",
   "name": "Feile Rince Charlotte",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -480,6 +503,7 @@
   "extra": {},
   "host": "Drake School",
   "name": "Orange State Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -501,6 +525,7 @@
   "extra": {},
   "host": "Inishfree TX",
   "name": "Texas Capital Championships",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "https://www.feisworx.com/index.php"
@@ -522,6 +547,7 @@
   "extra": {},
   "host": "Drake School",
   "name": "Cara Dances On Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -543,6 +569,7 @@
   "extra": {},
   "host": "Inishfree TX",
   "name": "Live Music Capital Championships",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "https://www.feisworx.com/index.php"
@@ -564,6 +591,7 @@
   "extra": {},
   "host": "McTeggart School",
   "name": "Oklahoma State Championships & Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -585,6 +613,7 @@
   "extra": {},
   "host": "McTeggart School",
   "name": "Scissortail Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -606,6 +635,7 @@
   "extra": {},
   "host": "O'Neil James School",
   "name": "27th Annual Nation's Capital Feis & All American Championships",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "quickfeis": "http://www.quickfeis.com"
@@ -627,6 +657,7 @@
   "extra": {},
   "host": "Rhythm Of Ireland School",
   "name": "Rhythm Of Ireland Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -648,6 +679,7 @@
   "extra": {},
   "host": "Rhythm Of Ireland School",
   "name": "Rosanna Dolan Memorial Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -669,6 +701,7 @@
   "extra": {},
   "host": "McTeggart North TX",
   "name": "Four Sisters Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "other": "https://danceirish.org/"
@@ -690,6 +723,7 @@
   "extra": {},
   "host": "McTeggart North TX",
   "name": "Chisholm Trail Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "other": "https://danceirish.org/"
@@ -711,6 +745,7 @@
   "extra": {},
   "host": "Drake School of Irish Dance",
   "name": "Karl Drake Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "other": "https://www.facebook.com/KarlDrakeFeis"
@@ -732,6 +767,7 @@
   "extra": {},
   "host": "Kavanagh Porter Academy",
   "name": "Kavanagh Porter Academy Champioships",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {},
   "source": "southern",
@@ -751,6 +787,7 @@
   "extra": {},
   "host": "McTeggart School",
   "name": "Irish Rose Of Texas Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -772,6 +809,7 @@
   "extra": {},
   "host": "McTeggart School",
   "name": "Houston Harvest Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -793,6 +831,7 @@
   "extra": {},
   "host": "Scariff School",
   "name": "Florida Suncoast Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "other": "https://www.scariffschool.com/"
@@ -814,6 +853,7 @@
   "extra": {},
   "host": "Claire Shirey TCRG",
   "name": "The Tennessee Feis in Music City",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "other": "https://middletnirish.org/tennessee-feis/"
@@ -835,6 +875,7 @@
   "extra": {},
   "host": "Claire Shirey TCRG",
   "name": "The Tennessee Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "other": "https://middletnirish.org/tennessee-feis/"
@@ -856,6 +897,7 @@
   "extra": {},
   "host": "Scariff School",
   "name": "Tampa Bay Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "other": "https://www.scariffschool.com/"
@@ -877,6 +919,7 @@
   "extra": {},
   "host": "Niall O'Leary School",
   "name": "Feisin The Coast",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -898,6 +941,7 @@
   "extra": {},
   "host": "Connick School & Reid Academy",
   "name": "Connick School & Reid Academy Samhain Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -919,6 +963,7 @@
   "extra": {},
   "host": "Niall O'Leary School",
   "name": "Mississippi Gulf Coast Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -940,6 +985,7 @@
   "extra": {},
   "host": "Connick School & Reid Academy",
   "name": "Connick School & Reid Adademy Fall Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "ifeis": "http://www.ifeis.net"
@@ -961,6 +1007,7 @@
   "extra": {},
   "host": null,
   "name": "Trinity River Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
@@ -982,6 +1029,7 @@
   "extra": {},
   "host": "Culkin School",
   "name": "Feis Culkin",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "quickfeis": "http://www.quickfeis.com"
@@ -1003,6 +1051,7 @@
   "extra": {},
   "host": "Culkin School",
   "name": "Maryland Fall Champioship",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "quickfeis": "http://www.quickfeis.com"
@@ -1024,6 +1073,7 @@
   "extra": {},
   "host": null,
   "name": "Samhain Feis",
+  "platform_ids": {},
   "region": "Southern",
   "registration_links": {
    "feisworx": "http://www.feisworx.com"
