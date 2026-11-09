@@ -194,6 +194,10 @@ def main(urls: list[str]) -> None:
     outdir.mkdir(exist_ok=True)
     client = Client(cache_dir=".cache/probe")
     for url in urls:
+        if not re.match(r"^https?://", url):
+            url = "https://" + url
+        # JSON APIs: say so honestly via Accept; User-Agent stays our identifying one.
+        client.s.headers["Accept"] = "application/json" if "/api/" in url else "*/*"
         host = urlparse(url).netloc.replace(":", "_")
         try:
             page = client.get(url)
