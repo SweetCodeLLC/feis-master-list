@@ -3,54 +3,6 @@
   "address": null,
   "city": "Brighton",
   "country": "US",
-  "end_date": "2026-11-07",
-  "extra": {
-   "registration_status": "Registration is CLOSED"
-  },
-  "host": "McTeggart, CO",
-  "name": "CO State Championships 2026",
-  "platform_ids": {},
-  "region": null,
-  "registration_links": {
-   "feisworx": "https://www.feisworx.com/feisinfo.php"
-  },
-  "source": "feisworx",
-  "source_id": "2421",
-  "source_url": "https://www.feisworx.com/feisinfo.php",
-  "sources": [],
-  "start_date": "2026-11-07",
-  "state": "CO",
-  "venue": null,
-  "website": "https://sites.google.com/view/coloradostatefeis"
- },
- {
-  "address": null,
-  "city": "Los Angeles",
-  "country": "US",
-  "end_date": "2026-11-07",
-  "extra": {
-   "registration_status": "Registration is CLOSED"
-  },
-  "host": "DeBarra Academy",
-  "name": "DeBarra Championships 2026",
-  "platform_ids": {},
-  "region": null,
-  "registration_links": {
-   "feisworx": "https://www.feisworx.com/feisinfo.php"
-  },
-  "source": "feisworx",
-  "source_id": "2420",
-  "source_url": "https://www.feisworx.com/feisinfo.php",
-  "sources": [],
-  "start_date": "2026-11-07",
-  "state": "CA",
-  "venue": null,
-  "website": null
- },
- {
-  "address": null,
-  "city": "Brighton",
-  "country": "US",
   "end_date": "2026-11-08",
   "extra": {
    "registration_status": "Registration is CLOSED"
