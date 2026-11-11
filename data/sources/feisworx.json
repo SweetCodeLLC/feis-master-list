@@ -1,54 +1,6 @@
 [
  {
   "address": null,
-  "city": "Brighton",
-  "country": "US",
-  "end_date": "2026-11-08",
-  "extra": {
-   "registration_status": "Registration is CLOSED"
-  },
-  "host": "McTeggart, CO",
-  "name": "Colorado Fall Feis 2026",
-  "platform_ids": {},
-  "region": null,
-  "registration_links": {
-   "feisworx": "https://www.feisworx.com/feisinfo.php"
-  },
-  "source": "feisworx",
-  "source_id": "2422",
-  "source_url": "https://www.feisworx.com/feisinfo.php",
-  "sources": [],
-  "start_date": "2026-11-08",
-  "state": "CO",
-  "venue": null,
-  "website": "https://sites.google.com/view/coloradostatefeis"
- },
- {
-  "address": null,
-  "city": "Los Angeles",
-  "country": "US",
-  "end_date": "2026-11-08",
-  "extra": {
-   "registration_status": "Registration is CLOSED"
-  },
-  "host": "DeBarra Academy",
-  "name": "South Bay Feis 2026",
-  "platform_ids": {},
-  "region": null,
-  "registration_links": {
-   "feisworx": "https://www.feisworx.com/feisinfo.php"
-  },
-  "source": "feisworx",
-  "source_id": "2423",
-  "source_url": "https://www.feisworx.com/feisinfo.php",
-  "sources": [],
-  "start_date": "2026-11-08",
-  "state": "CA",
-  "venue": null,
-  "website": null
- },
- {
-  "address": null,
   "city": "Anaheim",
   "country": "US",
   "end_date": "2026-11-22",
@@ -140,6 +92,30 @@
   "sources": [],
   "start_date": "2026-12-06",
   "state": "CA",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "Milwaukee",
+  "country": "US",
+  "end_date": "2026-12-12",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "Marquette University",
+  "name": "Marquette Univeristy Grade Exams 2026",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2430",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2026-12-12",
+  "state": "WI",
   "venue": null,
   "website": null
  },

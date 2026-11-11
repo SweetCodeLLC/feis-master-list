@@ -1,5 +1,5 @@
 {
- "count": 52,
+ "count": 53,
  "feiseanna": [
   {
    "address": null,
@@ -320,6 +320,37 @@
    ],
    "start_date": "2026-12-06",
    "state": "CA",
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": "Milwaukee",
+   "country": "US",
+   "end_date": "2026-12-12",
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
+   "host": "Marquette University",
+   "name": "Marquette Univeristy Grade Exams 2026",
+   "platform_ids": {
+    "feisworx": "2430"
+   },
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2430",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2026-12-12",
+   "state": "WI",
    "venue": null,
    "website": null
   },
