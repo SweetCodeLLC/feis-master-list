@@ -25,30 +25,6 @@
  },
  {
   "address": null,
-  "city": "Anaheim",
-  "country": "US",
-  "end_date": "2026-11-22",
-  "extra": {
-   "registration_status": "Registration is Open"
-  },
-  "host": "IDTANA Western Region",
-  "name": "WUSR Oireachtas Mini-Feis 2026",
-  "platform_ids": {},
-  "region": null,
-  "registration_links": {
-   "feisworx": "https://www.feisworx.com/feisinfo.php"
-  },
-  "source": "feisworx",
-  "source_id": "2424",
-  "source_url": "https://www.feisworx.com/feisinfo.php",
-  "sources": [],
-  "start_date": "2026-11-22",
-  "state": "CA",
-  "venue": null,
-  "website": null
- },
- {
-  "address": null,
   "city": "Rancho Mirage",
   "country": "US",
   "end_date": "2026-12-05",
@@ -116,6 +92,54 @@
   "sources": [],
   "start_date": "2026-12-12",
   "state": "WI",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "Portland",
+  "country": "US",
+  "end_date": "2027-01-16",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "An Daire",
+  "name": "Portland New Year Feis 2027",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2431",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-01-16",
+  "state": "OR",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "Portland",
+  "country": "US",
+  "end_date": "2027-01-17",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "An Daire",
+  "name": "Northwest Winterfeis 2027",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2432",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-01-17",
+  "state": "OR",
   "venue": null,
   "website": null
  },

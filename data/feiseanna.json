@@ -1,5 +1,5 @@
 {
- "count": 53,
+ "count": 60,
  "feiseanna": [
   {
    "address": null,
@@ -107,37 +107,6 @@
     }
    ],
    "start_date": "2026-11-20",
-   "state": "CA",
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": "Anaheim",
-   "country": "US",
-   "end_date": "2026-11-22",
-   "extra": {
-    "registration_status": "Registration is Open"
-   },
-   "host": "IDTANA Western Region",
-   "name": "WUSR Oireachtas Mini-Feis 2026",
-   "platform_ids": {
-    "feisworx": "2424"
-   },
-   "region": null,
-   "registration_links": {
-    "feisworx": "https://www.feisworx.com/feisinfo.php"
-   },
-   "source": "feisworx",
-   "source_id": "2424",
-   "source_url": "https://www.feisworx.com/feisinfo.php",
-   "sources": [
-    {
-     "source": "feisworx",
-     "url": "https://www.feisworx.com/feisinfo.php"
-    }
-   ],
-   "start_date": "2026-11-22",
    "state": "CA",
    "venue": null,
    "website": null
@@ -419,10 +388,14 @@
    "city": "Portland",
    "country": "US",
    "end_date": "2027-01-16",
-   "extra": {},
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
    "host": "An Daire Academy of Irish Dance & Pacific Celtic Foundation",
    "name": "Portland New Year\u2019s Feis",
-   "platform_ids": {},
+   "platform_ids": {
+    "feisworx": "2431"
+   },
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://www.feisworx.com/"
@@ -434,6 +407,10 @@
     {
      "source": "idtana",
      "url": "https://idtana.org/events/portland-new-years-feis-3/"
+    },
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
     }
    ],
    "start_date": "2027-01-16",
@@ -475,10 +452,14 @@
    "city": "Portland",
    "country": "US",
    "end_date": "2027-01-17",
-   "extra": {},
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
    "host": "An Daire Academy of Irish Dance & Pacific Celtic Foundation",
    "name": "Northwest Winterfeis",
-   "platform_ids": {},
+   "platform_ids": {
+    "feisworx": "2432"
+   },
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://www.feisworx.com/"
@@ -490,6 +471,10 @@
     {
      "source": "idtana",
      "url": "https://idtana.org/events/northwest-winterfeis-3/"
+    },
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
     }
    ],
    "start_date": "2027-01-17",
@@ -918,6 +903,81 @@
     }
    ],
    "start_date": "2027-02-14",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-02-27",
+   "extra": {},
+   "host": null,
+   "name": "Maple City Winter Feis",
+   "platform_ids": {},
+   "region": "Eastern Canada",
+   "registration_links": {},
+   "source": "eastern_canada",
+   "source_id": "maple-city-winter-feis-2027-02-27",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "eastern_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-02-27",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-02-28",
+   "extra": {},
+   "host": null,
+   "name": "Cornell Winter Championships & Grades Feis",
+   "platform_ids": {},
+   "region": "Eastern Canada",
+   "registration_links": {},
+   "source": "eastern_canada",
+   "source_id": "cornell-winter-championships-grades-feis-2027-02-28",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "eastern_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-02-28",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-03-07",
+   "extra": {},
+   "host": null,
+   "name": "Diamond Championships & Grades Feis",
+   "platform_ids": {},
+   "region": "Eastern Canada",
+   "registration_links": {},
+   "source": "eastern_canada",
+   "source_id": "diamond-championships-grades-feis-2027-03-06",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "eastern_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-03-06",
    "state": null,
    "venue": null,
    "website": null
@@ -1431,6 +1491,106 @@
    "address": null,
    "city": null,
    "country": "CA",
+   "end_date": "2027-08-28",
+   "extra": {},
+   "host": null,
+   "name": "Maple City Summer Feis",
+   "platform_ids": {},
+   "region": "Eastern Canada",
+   "registration_links": {},
+   "source": "eastern_canada",
+   "source_id": "maple-city-summer-feis-2027-08-28",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "eastern_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-08-28",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-08-29",
+   "extra": {},
+   "host": null,
+   "name": "Cornell Summer Championships & Grades Feis",
+   "platform_ids": {},
+   "region": "Eastern Canada",
+   "registration_links": {},
+   "source": "eastern_canada",
+   "source_id": "cornell-summer-championships-grades-feis-2027-08-29",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "eastern_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-08-29",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-09-05",
+   "extra": {},
+   "host": null,
+   "name": "Fiddlehead Feis",
+   "platform_ids": {},
+   "region": "Eastern Canada",
+   "registration_links": {},
+   "source": "eastern_canada",
+   "source_id": "fiddlehead-feis-2027-09-04",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "eastern_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-09-04",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-10-09",
+   "extra": {},
+   "host": null,
+   "name": "Phantom Feis - Eastern Canada's Halloween Feis",
+   "platform_ids": {},
+   "region": "Eastern Canada",
+   "registration_links": {},
+   "source": "eastern_canada",
+   "source_id": "phantom-feis-eastern-canada-s-halloween-feis-2027-10-08",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "eastern_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-10-08",
+   "state": null,
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
    "end_date": "2027-10-24",
    "extra": {},
    "host": "O\u2019Connor School of Irish Dance and Rince Na Gael Celtic Heritage Society BC",
@@ -1450,6 +1610,31 @@
    "start_date": "2027-10-23",
    "state": null,
    "venue": "The Pipe Shop at the Shipyards",
+   "website": null
+  },
+  {
+   "address": null,
+   "city": null,
+   "country": "CA",
+   "end_date": "2027-11-28",
+   "extra": {},
+   "host": null,
+   "name": "ECRO Mini Feis, Montreal QC",
+   "platform_ids": {},
+   "region": "Eastern Canada",
+   "registration_links": {},
+   "source": "eastern_canada",
+   "source_id": "ecro-mini-feis-montreal-qc-2027-11-27",
+   "source_url": null,
+   "sources": [
+    {
+     "source": "eastern_canada",
+     "url": null
+    }
+   ],
+   "start_date": "2027-11-27",
+   "state": null,
+   "venue": null,
    "website": null
   },
   {
