@@ -30,33 +30,6 @@
    "address": "2131 Lindau Ln",
    "city": "Bloomington",
    "country": "US",
-   "end_date": "2026-11-14",
-   "extra": {},
-   "host": "The Irish Dance Parent Association and O\u2019Shea Irish Dance",
-   "name": "Minnesota State Championship",
-   "platform_ids": {},
-   "region": "Mid America",
-   "registration_links": {
-    "feisfwd": "https://www.feisfwd.com/"
-   },
-   "source": "idtana",
-   "source_id": "13245",
-   "source_url": "https://idtana.org/events/minnesota-state-championship-2/",
-   "sources": [
-    {
-     "source": "idtana",
-     "url": "https://idtana.org/events/minnesota-state-championship-2/"
-    }
-   ],
-   "start_date": "2026-11-14",
-   "state": "MN",
-   "venue": "Mall of America",
-   "website": "https://www.idpamn.org/events-1/2026-minnesota-state-championship"
-  },
-  {
-   "address": "2131 Lindau Ln",
-   "city": "Bloomington",
-   "country": "US",
    "end_date": "2026-11-15",
    "extra": {},
    "host": "The Irish Dance Parent Association and O\u2019Shea Irish Dance",
@@ -107,6 +80,37 @@
     }
    ],
    "start_date": "2026-11-20",
+   "state": "CA",
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": "Anaheim",
+   "country": "US",
+   "end_date": "2026-11-22",
+   "extra": {
+    "registration_status": "Registration is CLOSED"
+   },
+   "host": "IDTANA Western Region",
+   "name": "WUSR Oireachtas Mini-Feis 2026",
+   "platform_ids": {
+    "feisworx": "2424"
+   },
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2424",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2026-11-22",
    "state": "CA",
    "venue": null,
    "website": null
@@ -212,12 +216,17 @@
    "country": "US",
    "end_date": "2026-12-06",
    "extra": {
+    "id_match": {
+     "quickfeis": "name+year"
+    },
     "registration_closes": "2026-11-03",
     "registration_opens": "2026-09-03"
    },
    "host": null,
    "name": "IDTANA Southern Region Mini Feis",
-   "platform_ids": {},
+   "platform_ids": {
+    "quickfeis": "1792"
+   },
    "region": "Southern",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
@@ -388,14 +397,10 @@
    "city": "Portland",
    "country": "US",
    "end_date": "2027-01-16",
-   "extra": {
-    "registration_status": "Registration is Open"
-   },
+   "extra": {},
    "host": "An Daire Academy of Irish Dance & Pacific Celtic Foundation",
    "name": "Portland New Year\u2019s Feis",
-   "platform_ids": {
-    "feisworx": "2431"
-   },
+   "platform_ids": {},
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://www.feisworx.com/"
@@ -407,10 +412,6 @@
     {
      "source": "idtana",
      "url": "https://idtana.org/events/portland-new-years-feis-3/"
-    },
-    {
-     "source": "feisworx",
-     "url": "https://www.feisworx.com/feisinfo.php"
     }
    ],
    "start_date": "2027-01-16",
@@ -452,14 +453,10 @@
    "city": "Portland",
    "country": "US",
    "end_date": "2027-01-17",
-   "extra": {
-    "registration_status": "Registration is Open"
-   },
+   "extra": {},
    "host": "An Daire Academy of Irish Dance & Pacific Celtic Foundation",
    "name": "Northwest Winterfeis",
-   "platform_ids": {
-    "feisworx": "2432"
-   },
+   "platform_ids": {},
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://www.feisworx.com/"
@@ -471,10 +468,6 @@
     {
      "source": "idtana",
      "url": "https://idtana.org/events/northwest-winterfeis-3/"
-    },
-    {
-     "source": "feisworx",
-     "url": "https://www.feisworx.com/feisinfo.php"
     }
    ],
    "start_date": "2027-01-17",
