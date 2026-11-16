@@ -3,26 +3,6 @@
   "address": null,
   "city": null,
   "country": "CA",
-  "end_date": "2026-11-15",
-  "extra": {},
-  "host": null,
-  "name": "Western Canada Regional Oireachtas",
-  "platform_ids": {},
-  "region": "Western Canada",
-  "registration_links": {},
-  "source": "western_canada",
-  "source_id": "western-canada-regional-oireachtas-2026-11-13",
-  "source_url": null,
-  "sources": [],
-  "start_date": "2026-11-13",
-  "state": null,
-  "venue": "Hyatt Regency Calgary",
-  "website": "https://wcidta.ca/oireachtas"
- },
- {
-  "address": null,
-  "city": null,
-  "country": "CA",
   "end_date": "2027-01-31",
   "extra": {},
   "host": null,
@@ -298,6 +278,26 @@
   "state": null,
   "venue": "Westin Hotel Downtown Edmonton",
   "website": "https://www.mattierin.ca/feisinthewest"
+ },
+ {
+  "address": null,
+  "city": null,
+  "country": "CA",
+  "end_date": "2026-11-15",
+  "extra": {},
+  "host": null,
+  "name": "Western Canada Regional Oireachtas",
+  "platform_ids": {},
+  "region": "Western Canada",
+  "registration_links": {},
+  "source": "western_canada",
+  "source_id": "western-canada-regional-oireachtas-2026-11-13",
+  "source_url": null,
+  "sources": [],
+  "start_date": "2026-11-13",
+  "state": null,
+  "venue": "Hyatt Regency Calgary",
+  "website": "https://wcidta.ca/oireachtas"
  },
  {
   "address": null,
@@ -916,27 +916,5 @@
   "state": null,
   "venue": "Double Tree by Hilton Hotel",
   "website": null
- },
- {
-  "address": null,
-  "city": null,
-  "country": "CA",
-  "end_date": "2025-04-06",
-  "extra": {},
-  "host": "Steel School and IDOSS",
-  "name": "Easter Championships",
-  "platform_ids": {},
-  "region": "Western Canada",
-  "registration_links": {
-   "ifeis": "https://www.ifeis.net"
-  },
-  "source": "western_canada",
-  "source_id": "easter-championships-2025-04-06",
-  "source_url": null,
-  "sources": [],
-  "start_date": "2025-04-06",
-  "state": null,
-  "venue": "Sheraton Vancouver Guildford Hotel",
-  "website": "https://www.steelschoolofirishdance.com/seatoskyopen"
  }
 ]
