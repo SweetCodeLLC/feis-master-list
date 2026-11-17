@@ -214,5 +214,29 @@
   "state": "FL",
   "venue": null,
   "website": "http://www.scariffschool.com"
+ },
+ {
+  "address": null,
+  "city": "Draper",
+  "country": "US",
+  "end_date": "2027-02-06",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "The Shelley School of Irish Dance",
+  "name": "Shelley Wasatch Winter Feis 2027",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2436",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-02-06",
+  "state": "UT",
+  "venue": null,
+  "website": "http://www.shelleyirishdance.com"
  }
 ]

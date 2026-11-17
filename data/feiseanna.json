@@ -1,5 +1,5 @@
 {
- "count": 58,
+ "count": 59,
  "feiseanna": [
   {
    "address": null,
@@ -695,6 +695,37 @@
    "state": null,
    "venue": "Mary Winspear Centre",
    "website": "https://obrienirishdance.com"
+  },
+  {
+   "address": null,
+   "city": "Draper",
+   "country": "US",
+   "end_date": "2027-02-06",
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
+   "host": "The Shelley School of Irish Dance",
+   "name": "Shelley Wasatch Winter Feis 2027",
+   "platform_ids": {
+    "feisworx": "2436"
+   },
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2436",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2027-02-06",
+   "state": "UT",
+   "venue": null,
+   "website": "http://www.shelleyirishdance.com"
   },
   {
    "address": null,
