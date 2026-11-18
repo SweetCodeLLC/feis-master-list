@@ -238,5 +238,53 @@
   "state": "UT",
   "venue": null,
   "website": "http://www.shelleyirishdance.com"
+ },
+ {
+  "address": null,
+  "city": "San Diego",
+  "country": "US",
+  "end_date": "2027-02-13",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "Clan Rince School of Irish Dance",
+  "name": "San Diego Winter Feis 2027",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2434",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-02-13",
+  "state": "CA",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "San Diego",
+  "country": "US",
+  "end_date": "2027-02-14",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "Clan Rince School of Irish Dance",
+  "name": "Clan Rince Feis 2027",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2435",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-02-14",
+  "state": "CA",
+  "venue": null,
+  "website": null
  }
 ]
