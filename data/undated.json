@@ -1,5 +1,25 @@
 [
  {
+  "address": null,
+  "city": null,
+  "country": null,
+  "end_date": null,
+  "extra": {},
+  "host": null,
+  "name": "Events",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {},
+  "source": "idtana",
+  "source_id": "events",
+  "source_url": "https://idtana.org/category/public/events/",
+  "sources": [],
+  "start_date": null,
+  "state": null,
+  "venue": null,
+  "website": null
+ },
+ {
   "address": "West Street",
   "city": "Natick",
   "country": "US",

@@ -169,6 +169,30 @@
  },
  {
   "address": null,
+  "city": "Boulder",
+  "country": "US",
+  "end_date": "2027-01-18",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "McTeggart, CO",
+  "name": "Avalon Winterfeis 2027",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2437",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-01-18",
+  "state": "CO",
+  "venue": null,
+  "website": "http://cofeis.org"
+ },
+ {
+  "address": null,
   "city": "St. Petersburg",
   "country": "US",
   "end_date": "2027-01-23",

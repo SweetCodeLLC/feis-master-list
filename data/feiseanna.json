@@ -358,7 +358,7 @@
     "feisworx": "https://www.feisworx.com/"
    },
    "source": "idtana",
-   "source_id": "13425",
+   "source_id": "portland-new-years-feis-3",
    "source_url": "https://idtana.org/events/portland-new-years-feis-3/",
    "sources": [
     {
@@ -422,7 +422,7 @@
     "feisworx": "https://www.feisworx.com/"
    },
    "source": "idtana",
-   "source_id": "13427",
+   "source_id": "northwest-winterfeis-3",
    "source_url": "https://idtana.org/events/northwest-winterfeis-3/",
    "sources": [
     {
@@ -473,21 +473,29 @@
    "city": "Boulder",
    "country": "US",
    "end_date": "2027-01-18",
-   "extra": {},
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
    "host": "McTeggart",
    "name": "Avalon Winterfeis",
-   "platform_ids": {},
+   "platform_ids": {
+    "feisworx": "2437"
+   },
    "region": "Western US",
    "registration_links": {
     "feisworx": "https://feisworx.com/"
    },
    "source": "idtana",
-   "source_id": "10907",
+   "source_id": "avalon-winterfeis",
    "source_url": "https://idtana.org/events/avalon-winterfeis/",
    "sources": [
     {
      "source": "idtana",
      "url": "https://idtana.org/events/avalon-winterfeis/"
+    },
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
     }
    ],
    "start_date": "2027-01-18",
@@ -627,7 +635,7 @@
     "feisworx": "http://www.feisworx.com"
    },
    "source": "idtana",
-   "source_id": "13231",
+   "source_id": "north-coast-feis-3",
    "source_url": "https://idtana.org/events/north-coast-feis-3/",
    "sources": [
     {
@@ -770,7 +778,7 @@
     "other": "https://www.signupgenius.com/go/10C0C49A9AF2DA7FE3-66117523-north"
    },
    "source": "idtana",
-   "source_id": "13233",
+   "source_id": "north-coast-feis-grade-exams-2",
    "source_url": "https://idtana.org/events/north-coast-feis-grade-exams-2/",
    "sources": [
     {
@@ -826,7 +834,7 @@
     "feisworx": "https://feisworx.com/"
    },
    "source": "idtana",
-   "source_id": "9647",
+   "source_id": "new-mexico-state-championships-feis-on-the-rio-grande",
    "source_url": "https://idtana.org/events/new-mexico-state-championships-feis-on-the-rio-grande/",
    "sources": [
     {
@@ -1189,7 +1197,7 @@
     "feisworx": "https://www.feisworx.com/"
    },
    "source": "idtana",
-   "source_id": "13429",
+   "source_id": "alaska-state-feis",
    "source_url": "https://idtana.org/events/alaska-state-feis/",
    "sources": [
     {
