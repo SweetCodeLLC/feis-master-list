@@ -1,5 +1,5 @@
 {
- "count": 61,
+ "count": 62,
  "feiseanna": [
   {
    "address": null,
@@ -1209,6 +1209,33 @@
    "state": "AK",
    "venue": "North Star Elementary School",
    "website": "https://sites.google.com/pacificcelticfoundation.org/feiseanna/home/alaska-state-feis"
+  },
+  {
+   "address": "Unit 4 \u2013 325 Rocky Lake Drive",
+   "city": "Bedford",
+   "country": "CA",
+   "end_date": "2027-04-23",
+   "extra": {},
+   "host": "Rising Tide Irish Dance Academy",
+   "name": "ACIDC Grade Exams P-10 & ADD",
+   "platform_ids": {},
+   "region": "Eastern Canada",
+   "registration_links": {
+    "other": "https://risingtideacademy.ca/acidc/"
+   },
+   "source": "idtana",
+   "source_id": "acidc-grade-exams-p-10-add",
+   "source_url": "https://idtana.org/events/acidc-grade-exams-p-10-add/",
+   "sources": [
+    {
+     "source": "idtana",
+     "url": "https://idtana.org/events/acidc-grade-exams-p-10-add/"
+    }
+   ],
+   "start_date": "2027-04-23",
+   "state": "NS",
+   "venue": "Halifax",
+   "website": "https://risingtideacademy.ca/acidc/"
   },
   {
    "address": null,
