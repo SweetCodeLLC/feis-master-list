@@ -1,68 +1,6 @@
 {
- "count": 62,
+ "count": 60,
  "feiseanna": [
-  {
-   "address": null,
-   "city": "Anaheim",
-   "country": "US",
-   "end_date": "2026-11-22",
-   "extra": {
-    "registration_status": "Registration is CLOSED"
-   },
-   "host": "IDTANA Western Region",
-   "name": "Western US Region Oireachtas 2026",
-   "platform_ids": {
-    "feisworx": "2410"
-   },
-   "region": null,
-   "registration_links": {
-    "feisworx": "https://www.feisworx.com/feisinfo.php"
-   },
-   "source": "feisworx",
-   "source_id": "2410",
-   "source_url": "https://www.feisworx.com/feisinfo.php",
-   "sources": [
-    {
-     "source": "feisworx",
-     "url": "https://www.feisworx.com/feisinfo.php"
-    }
-   ],
-   "start_date": "2026-11-20",
-   "state": "CA",
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": "Anaheim",
-   "country": "US",
-   "end_date": "2026-11-22",
-   "extra": {
-    "registration_status": "Registration is CLOSED"
-   },
-   "host": "IDTANA Western Region",
-   "name": "WUSR Oireachtas Mini-Feis 2026",
-   "platform_ids": {
-    "feisworx": "2424"
-   },
-   "region": null,
-   "registration_links": {
-    "feisworx": "https://www.feisworx.com/feisinfo.php"
-   },
-   "source": "feisworx",
-   "source_id": "2424",
-   "source_url": "https://www.feisworx.com/feisinfo.php",
-   "sources": [
-    {
-     "source": "feisworx",
-     "url": "https://www.feisworx.com/feisinfo.php"
-    }
-   ],
-   "start_date": "2026-11-22",
-   "state": "CA",
-   "venue": null,
-   "website": null
-  },
   {
    "address": "400 W Wisconsin Ave",
    "city": "Milwaukee",
@@ -626,10 +564,14 @@
    "city": "Cleveland",
    "country": "US",
    "end_date": "2027-02-06",
-   "extra": {},
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
    "host": "North Coast Feis",
    "name": "North Coast Feis",
-   "platform_ids": {},
+   "platform_ids": {
+    "feisworx": "2427"
+   },
    "region": "Mid America",
    "registration_links": {
     "feisworx": "http://www.feisworx.com"
@@ -641,6 +583,10 @@
     {
      "source": "idtana",
      "url": "https://idtana.org/events/north-coast-feis-3/"
+    },
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
     }
    ],
    "start_date": "2027-02-06",

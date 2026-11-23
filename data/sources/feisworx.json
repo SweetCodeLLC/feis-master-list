@@ -8,30 +8,6 @@
    "registration_status": "Registration is CLOSED"
   },
   "host": "IDTANA Western Region",
-  "name": "Western US Region Oireachtas 2026",
-  "platform_ids": {},
-  "region": null,
-  "registration_links": {
-   "feisworx": "https://www.feisworx.com/feisinfo.php"
-  },
-  "source": "feisworx",
-  "source_id": "2410",
-  "source_url": "https://www.feisworx.com/feisinfo.php",
-  "sources": [],
-  "start_date": "2026-11-20",
-  "state": "CA",
-  "venue": null,
-  "website": null
- },
- {
-  "address": null,
-  "city": "Anaheim",
-  "country": "US",
-  "end_date": "2026-11-22",
-  "extra": {
-   "registration_status": "Registration is CLOSED"
-  },
-  "host": "IDTANA Western Region",
   "name": "WUSR Oireachtas Mini-Feis 2026",
   "platform_ids": {},
   "region": null,
@@ -262,6 +238,30 @@
   "state": "UT",
   "venue": null,
   "website": "http://www.shelleyirishdance.com"
+ },
+ {
+  "address": null,
+  "city": "Cleveland",
+  "country": "US",
+  "end_date": "2027-02-06",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "North Coast Feis Committee",
+  "name": "The North Coast Feis 2027",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2427",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-02-06",
+  "state": "OH",
+  "venue": null,
+  "website": "https://www.leneghanacademy.com/ncfgrade-exams.html"
  },
  {
   "address": null,
