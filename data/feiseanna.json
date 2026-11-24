@@ -1,5 +1,5 @@
 {
- "count": 60,
+ "count": 50,
  "feiseanna": [
   {
    "address": "400 W Wisconsin Ave",
@@ -105,8 +105,7 @@
     "id_match": {
      "quickfeis": "name+year"
     },
-    "registration_closes": "2026-11-03",
-    "registration_opens": "2026-09-03"
+    "registration_closes": "2026-11-03"
    },
    "host": null,
    "name": "IDTANA Southern Region Mini Feis",
@@ -224,8 +223,7 @@
    "country": "US",
    "end_date": "2026-12-26",
    "extra": {
-    "registration_closes": "2026-12-14",
-    "registration_opens": "2026-10-10"
+    "registration_closes": "2026-12-14"
    },
    "host": null,
    "name": "Pittsburgh Winter Feis",
@@ -254,8 +252,7 @@
    "country": "US",
    "end_date": "2026-12-27",
    "extra": {
-    "registration_closes": "2026-12-14",
-    "registration_opens": "2026-10-10"
+    "registration_closes": "2026-12-14"
    },
    "host": null,
    "name": "Pittsburgh Snow Feis",
@@ -314,17 +311,17 @@
    "website": "https://sites.google.com/pacificcelticfoundation.org/feiseanna/home/portland-new-years-feis"
   },
   {
-   "address": null,
-   "city": null,
-   "country": null,
+   "address": "400 W Wisconsin Ave",
+   "city": "Milwaukee",
+   "country": "US",
    "end_date": "2027-01-16",
    "extra": {
-    "date_inferred_from_weekday": true
+    "registration_closes": "2027-01-04"
    },
    "host": null,
    "name": "Wisconsin Winter Feis",
    "platform_ids": {},
-   "region": null,
+   "region": "Mid America",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
    },
@@ -338,8 +335,8 @@
     }
    ],
    "start_date": "2027-01-16",
-   "state": null,
-   "venue": null,
+   "state": "WI",
+   "venue": "The Baird Center",
    "website": null
   },
   {
@@ -378,22 +375,22 @@
    "website": "https://sites.google.com/pacificcelticfoundation.org/feiseanna/home/northwest-winterfeis"
   },
   {
-   "address": null,
-   "city": null,
-   "country": null,
+   "address": "400 W Wisconsin Ave",
+   "city": "Milwaukee",
+   "country": "US",
    "end_date": "2027-01-17",
    "extra": {
-    "date_inferred_from_weekday": true
+    "registration_closes": "2027-01-04"
    },
    "host": null,
-   "name": "St Brigid Feis",
+   "name": "St. Brigid's Feis",
    "platform_ids": {},
-   "region": null,
+   "region": "Mid America",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
    },
    "source": "quickfeis",
-   "source_id": "st-brigid-feis-2027-01-17",
+   "source_id": "st-brigid-s-feis-2027-01-17",
    "source_url": "https://www.quickfeis.com/",
    "sources": [
     {
@@ -402,8 +399,8 @@
     }
    ],
    "start_date": "2027-01-17",
-   "state": null,
-   "venue": null,
+   "state": "WI",
+   "venue": "The Baird Center",
    "website": null
   },
   {
@@ -504,17 +501,17 @@
    "website": "http://www.scariffschool.com"
   },
   {
-   "address": null,
-   "city": null,
-   "country": null,
+   "address": "3905 Eastern Avenue",
+   "city": "Cincinnati",
+   "country": "US",
    "end_date": "2027-01-30",
    "extra": {
-    "date_inferred_from_weekday": true
+    "registration_closes": "2027-01-18"
    },
    "host": null,
    "name": "Queen City Mini Feis",
    "platform_ids": {},
-   "region": null,
+   "region": "Mid America",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
    },
@@ -528,8 +525,8 @@
     }
    ],
    "start_date": "2027-01-30",
-   "state": null,
-   "venue": null,
+   "state": "OH",
+   "venue": "Irish Heritage Center of Cincinnati",
    "website": null
   },
   {
@@ -595,17 +592,17 @@
    "website": "http://www.leneghanacademy.com"
   },
   {
-   "address": null,
-   "city": null,
-   "country": null,
+   "address": "4700 Emperor Blvd",
+   "city": "Durham,",
+   "country": "US",
    "end_date": "2027-02-06",
    "extra": {
-    "date_inferred_from_weekday": true
+    "registration_closes": "2027-01-25"
    },
    "host": null,
    "name": "Raleigh Feis",
    "platform_ids": {},
-   "region": null,
+   "region": "Southern",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
    },
@@ -619,8 +616,8 @@
     }
    ],
    "start_date": "2027-02-06",
-   "state": null,
-   "venue": null,
+   "state": "NC",
+   "venue": "Sheraton Imperial Hotel Raleigh\u2013Durham",
    "website": null
   },
   {
@@ -682,35 +679,6 @@
    "website": "http://www.shelleyirishdance.com"
   },
   {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-02-07",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "City of Oaks Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "city-of-oaks-feis-2027-02-07",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-02-07",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
    "address": "24 Public Square",
    "city": "Cleveland",
    "country": "US",
@@ -738,17 +706,46 @@
    "website": "https://www.signupgenius.com/go/10C0C49A9AF2DA7FE3-66117523-north"
   },
   {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-02-13",
+   "address": "4700 Emperor Blvd",
+   "city": "Durham,",
+   "country": "US",
+   "end_date": "2027-02-07",
    "extra": {
-    "date_inferred_from_weekday": true
+    "registration_closes": "2027-01-25"
    },
    "host": null,
-   "name": "For the Love of Ireland Feis",
+   "name": "The City of Oaks Feis",
    "platform_ids": {},
-   "region": null,
+   "region": "Southern",
+   "registration_links": {
+    "quickfeis": "https://www.quickfeis.com/"
+   },
+   "source": "quickfeis",
+   "source_id": "the-city-of-oaks-feis-2027-02-07",
+   "source_url": "https://www.quickfeis.com/",
+   "sources": [
+    {
+     "source": "quickfeis",
+     "url": "https://www.quickfeis.com/"
+    }
+   ],
+   "start_date": "2027-02-07",
+   "state": "NC",
+   "venue": "Sheraton Imperial Hotel Raleigh\u2013Durham",
+   "website": null
+  },
+  {
+   "address": "215 E Division Rd",
+   "city": "Valparaiso,",
+   "country": "US",
+   "end_date": "2027-02-13",
+   "extra": {
+    "registration_closes": "2027-02-01"
+   },
+   "host": null,
+   "name": "For The Love of Ireland Feis",
+   "platform_ids": {},
+   "region": "Mid America",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
    },
@@ -762,8 +759,8 @@
     }
    ],
    "start_date": "2027-02-13",
-   "state": null,
-   "venue": null,
+   "state": "IN",
+   "venue": "Porter County Expo Center",
    "website": null
   },
   {
@@ -852,17 +849,17 @@
    "website": null
   },
   {
-   "address": null,
-   "city": null,
-   "country": null,
+   "address": "215 E Division Rd",
+   "city": "Valparaiso,",
+   "country": "US",
    "end_date": "2027-02-14",
    "extra": {
-    "date_inferred_from_weekday": true
+    "registration_closes": "2027-02-01"
    },
    "host": null,
    "name": "Black and White Feis",
    "platform_ids": {},
-   "region": null,
+   "region": "Mid America",
    "registration_links": {
     "quickfeis": "https://www.quickfeis.com/"
    },
@@ -876,8 +873,8 @@
     }
    ],
    "start_date": "2027-02-14",
-   "state": null,
-   "venue": null,
+   "state": "IN",
+   "venue": "Porter County Expo Center",
    "website": null
   },
   {
@@ -1014,122 +1011,6 @@
    "website": null
   },
   {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-03-20",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "West Virginia Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "west-virginia-feis-2027-03-20",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-03-20",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-03-21",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "Bell Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "bell-feis-2027-03-21",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-03-21",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-04-03",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "Richens Timm SATURDAY Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "richens-timm-saturday-feis-2027-04-03",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-04-03",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-04-04",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "Richens Timm SUNDAY Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "richens-timm-sunday-feis-2027-04-04",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-04-04",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
    "address": "605 W Fireweed Ln.",
    "city": "Anchorage",
    "country": "US",
@@ -1238,122 +1119,6 @@
   {
    "address": null,
    "city": null,
-   "country": null,
-   "end_date": "2027-05-30",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "Chicago Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "chicago-feis-2027-05-29",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-05-29",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-06-05",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "Buffalo Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "buffalo-feis-2027-06-05",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-06-05",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-06-05",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "Kinsella Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "kinsella-feis-2027-06-05",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-06-05",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-06-06",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "Cream City Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "cream-city-feis-2027-06-06",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-06-06",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": null,
    "country": "CA",
    "end_date": "2027-06-13",
    "extra": {},
@@ -1457,65 +1222,6 @@
    "start_date": "2027-06-25",
    "state": null,
    "venue": "Mount Royal University, Ross Glen Hall",
-   "website": null
-  },
-  {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-07-25",
-   "extra": {
-    "date_inferred_from_weekday": true
-   },
-   "host": null,
-   "name": "Tessie Burke Jig Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "tessie-burke-jig-feis-2027-07-25",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-07-25",
-   "state": null,
-   "venue": null,
-   "website": null
-  },
-  {
-   "address": null,
-   "city": null,
-   "country": null,
-   "end_date": "2027-07-25",
-   "extra": {
-    "date_inferred_from_weekday": true,
-    "date_uncertain": "'Jul 25' on 'Saturday' matches no upcoming year"
-   },
-   "host": null,
-   "name": "Tessie Burke Reel Feis",
-   "platform_ids": {},
-   "region": null,
-   "registration_links": {
-    "quickfeis": "https://www.quickfeis.com/"
-   },
-   "source": "quickfeis",
-   "source_id": "tessie-burke-reel-feis-2027-07-25",
-   "source_url": "https://www.quickfeis.com/",
-   "sources": [
-    {
-     "source": "quickfeis",
-     "url": "https://www.quickfeis.com/"
-    }
-   ],
-   "start_date": "2027-07-25",
-   "state": null,
-   "venue": null,
    "website": null
   },
   {
