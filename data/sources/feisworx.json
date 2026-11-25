@@ -1,30 +1,6 @@
 [
  {
   "address": null,
-  "city": "Anaheim",
-  "country": "US",
-  "end_date": "2026-11-22",
-  "extra": {
-   "registration_status": "Registration is CLOSED"
-  },
-  "host": "IDTANA Western Region",
-  "name": "WUSR Oireachtas Mini-Feis 2026",
-  "platform_ids": {},
-  "region": null,
-  "registration_links": {
-   "feisworx": "https://www.feisworx.com/feisinfo.php"
-  },
-  "source": "feisworx",
-  "source_id": "2424",
-  "source_url": "https://www.feisworx.com/feisinfo.php",
-  "sources": [],
-  "start_date": "2026-11-22",
-  "state": "CA",
-  "venue": null,
-  "website": null
- },
- {
-  "address": null,
   "city": "Rancho Mirage",
   "country": "US",
   "end_date": "2026-12-05",
@@ -265,6 +241,30 @@
  },
  {
   "address": null,
+  "city": "St. Louis",
+  "country": "US",
+  "end_date": "2027-02-13",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "St. Louis Irish Arts",
+  "name": "St Louis Irish Arts Feis 2027",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2438",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-02-12",
+  "state": "MO",
+  "venue": null,
+  "website": "http://www.slia.org"
+ },
+ {
+  "address": null,
   "city": "San Diego",
   "country": "US",
   "end_date": "2027-02-13",
@@ -308,6 +308,30 @@
   "sources": [],
   "start_date": "2027-02-14",
   "state": "CA",
+  "venue": null,
+  "website": null
+ },
+ {
+  "address": null,
+  "city": "St. Louis",
+  "country": "US",
+  "end_date": "2027-02-14",
+  "extra": {
+   "registration_status": "Registration is Open"
+  },
+  "host": "St. Louis Feis",
+  "name": "St Louis Winter Feis 2027",
+  "platform_ids": {},
+  "region": null,
+  "registration_links": {
+   "feisworx": "https://www.feisworx.com/feisinfo.php"
+  },
+  "source": "feisworx",
+  "source_id": "2439",
+  "source_url": "https://www.feisworx.com/feisinfo.php",
+  "sources": [],
+  "start_date": "2027-02-14",
+  "state": "MO",
   "venue": null,
   "website": null
  }

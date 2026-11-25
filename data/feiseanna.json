@@ -1,5 +1,5 @@
 {
- "count": 50,
+ "count": 52,
  "feiseanna": [
   {
    "address": "400 W Wisconsin Ave",
@@ -735,6 +735,37 @@
    "website": null
   },
   {
+   "address": null,
+   "city": "St. Louis",
+   "country": "US",
+   "end_date": "2027-02-13",
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
+   "host": "St. Louis Irish Arts",
+   "name": "St Louis Irish Arts Feis 2027",
+   "platform_ids": {
+    "feisworx": "2438"
+   },
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2438",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2027-02-12",
+   "state": "MO",
+   "venue": null,
+   "website": "http://www.slia.org"
+  },
+  {
    "address": "215 E Division Rd",
    "city": "Valparaiso,",
    "country": "US",
@@ -905,6 +936,37 @@
    ],
    "start_date": "2027-02-14",
    "state": "CA",
+   "venue": null,
+   "website": null
+  },
+  {
+   "address": null,
+   "city": "St. Louis",
+   "country": "US",
+   "end_date": "2027-02-14",
+   "extra": {
+    "registration_status": "Registration is Open"
+   },
+   "host": "St. Louis Feis",
+   "name": "St Louis Winter Feis 2027",
+   "platform_ids": {
+    "feisworx": "2439"
+   },
+   "region": null,
+   "registration_links": {
+    "feisworx": "https://www.feisworx.com/feisinfo.php"
+   },
+   "source": "feisworx",
+   "source_id": "2439",
+   "source_url": "https://www.feisworx.com/feisinfo.php",
+   "sources": [
+    {
+     "source": "feisworx",
+     "url": "https://www.feisworx.com/feisinfo.php"
+    }
+   ],
+   "start_date": "2027-02-14",
+   "state": "MO",
    "venue": null,
    "website": null
   },
